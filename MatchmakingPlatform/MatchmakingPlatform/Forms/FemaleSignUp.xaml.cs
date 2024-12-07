@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MatchmakingPlatform.BL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +20,10 @@ namespace MatchmakingPlatform.Forms {
     public partial class FemaleSignUp : Window {
         public FemaleSignUp() {
             InitializeComponent();
+        }
+
+        void AddFemale() {
+            
         }
     }
 }
