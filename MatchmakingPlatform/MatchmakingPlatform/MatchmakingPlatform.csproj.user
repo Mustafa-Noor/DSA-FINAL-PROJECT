@@ -7,6 +7,32 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="BL\Female.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BL\Male.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forms\FemaleSignUp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forms\MaleSignup.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="BL\Female.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BL\Male.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forms\FemaleSignUp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forms\MaleSignup.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
