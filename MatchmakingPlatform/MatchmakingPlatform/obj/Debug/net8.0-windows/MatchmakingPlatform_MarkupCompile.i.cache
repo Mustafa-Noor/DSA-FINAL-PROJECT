@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\Studies\DSA\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\
+C:\Users\PMLS\Desktop\Final Project\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\
 MatchmakingPlatform
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-E:\Studies\DSA\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\App.xaml
-5-1916459302
+C:\Users\PMLS\Desktop\Final Project\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\App.xaml
+71154072576
 
-10-1708548142
-198-635017904
-BL\Female.xaml;BL\Male.xaml;Forms\FemaleSignUp.xaml;Forms\MaleSignup.xaml;MainWindow.xaml;
+121447043199
+198155382431
+BL\Female.xaml;BL\Male.xaml;BL\Register.xaml;BL\SignIn.xaml;Forms\FemaleSignUp.xaml;Forms\MaleSignup.xaml;MainWindow.xaml;
 
-False
+True
 
