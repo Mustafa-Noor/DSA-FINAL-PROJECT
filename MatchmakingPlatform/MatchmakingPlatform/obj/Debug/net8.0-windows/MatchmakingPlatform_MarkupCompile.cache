@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\PMLS\Desktop\Final Project\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\App.xaml
-71154072576
+71071994826
 
-101820214178
+10-1941811370
 198155382431
-BL\Female.xaml;BL\Male.xaml;BL\Register.xaml;BL\SignIn.xaml;Forms\FemaleSignUp.xaml;Forms\MaleSignup.xaml;MainWindow.xaml;
+BL\Female.xaml;BL\Male.xaml;BL\Register.xaml;BL\SignIn.xaml;Forms\FemaleProfile.xaml;Forms\MaleProfile.xaml;MainWindow.xaml;
 
 False
 

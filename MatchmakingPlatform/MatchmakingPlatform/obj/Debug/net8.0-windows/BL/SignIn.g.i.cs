@@ -77,7 +77,7 @@ namespace MatchmakingPlatform.BL {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MatchmakingPlatform;V1.0.0.0;component/bl/signin.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MatchmakingPlatform;component/bl/signin.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\BL\SignIn.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
