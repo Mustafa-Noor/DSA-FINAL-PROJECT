@@ -10,7 +10,12 @@
         <Button Click="Button_Click" Content="Theeta is my Friend and Asad is my baddi" FontSize="35" Height="70" Margin="0,61,30,319"/>
         <Button Click="Button_Click" Content="Theeta is my Jigar" FontSize="35" Width="800" 
                 Height="70"
+<<<<<<< HEAD
                 HorizontalAlignment="Center" Margin="0,190,0,190"/>
 
+=======
+                HorizontalAlignment="left"/>
+        <TextBlock VerticalAlignment="Bottom" Margin="30" Text="sfhsfhd" FontSize="35"/>
+>>>>>>> e98c433a97214f9da427262484697019396e622f
     </Grid>
 </UserControl>
