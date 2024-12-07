@@ -22,15 +22,28 @@ namespace MatchmakingPlatform.DL
             return true;
         }
 
-        static public bool CheckUserExists(UserRegistration user)
+        static public bool CheckUserExists(string username)
         {
-            if (Users.ContainsKey(user.Username))
+            if (Users.ContainsKey(username))
             {
                 return true;
             }
 
             return false;
         }
+
+        static public UserRegistration FindUser(string username)
+        {
+            if (Users.ContainsKey(username))
+            {
+                return Users[username];
+            }
+
+            return null;
+        }
+
+
+  
 
     }
 }

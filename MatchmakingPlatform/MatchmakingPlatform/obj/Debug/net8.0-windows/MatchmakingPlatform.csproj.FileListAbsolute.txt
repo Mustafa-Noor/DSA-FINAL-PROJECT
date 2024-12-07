@@ -34,6 +34,7 @@ C:\Users\PMLS\Desktop\Final Project\DSA-FINAL-PROJECT\MatchmakingPlatform\Matchm
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\FemaleProfile.baml
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\BL\Female.g.cs
+C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\BL\Male.g.cs
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\BL\Register.g.cs
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\BL\SignIn.g.cs
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\FemaleProfile.g.cs
@@ -42,15 +43,11 @@ C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\Matchm
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\MatchmakingPlatform_MarkupCompile.cache
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\MatchmakingPlatform_MarkupCompile.lref
-C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\MatchmakingPlatform.dll
-C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\refint\MatchmakingPlatform.dll
-C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\MatchmakingPlatform.pdb
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\bin\Debug\net8.0-windows\MatchmakingPlatform.exe
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\bin\Debug\net8.0-windows\MatchmakingPlatform.deps.json
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\bin\Debug\net8.0-windows\MatchmakingPlatform.runtimeconfig.json
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\bin\Debug\net8.0-windows\MatchmakingPlatform.dll
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\bin\Debug\net8.0-windows\MatchmakingPlatform.pdb
-C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\BL\Male.g.cs
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\BL\Female.baml
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\BL\Male.baml
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\BL\Register.baml
@@ -62,5 +59,8 @@ C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\Matchm
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\MatchmakingPlatform.AssemblyInfo.cs
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\MatchmakingPlatform.csproj.CoreCompileInputs.cache
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\MatchmakingPlatform.sourcelink.json
+C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\MatchmakingPlatform.dll
+C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\refint\MatchmakingPlatform.dll
+C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\MatchmakingPlatform.pdb
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\MatchmakingPlatform.genruntimeconfig.cache
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\ref\MatchmakingPlatform.dll
