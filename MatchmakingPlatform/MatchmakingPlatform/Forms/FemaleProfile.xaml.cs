@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using MatchmakingPlatform.Extras;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 
@@ -27,7 +28,6 @@ namespace MatchmakingPlatform.Forms
                 AddressTextBox.IsEnabled = true;
                 CityTextBox.IsEnabled = true;
                 StateComboBox.IsEnabled = true;
-                PasswordBox.IsEnabled = true;
 
                 // Change button text to "Cancel Edit"
                 (sender as System.Windows.Controls.Button).Content = "Cancel Edit";
@@ -94,7 +94,6 @@ namespace MatchmakingPlatform.Forms
             AddressTextBox.IsEnabled = false;
             CityTextBox.IsEnabled = false;
             StateComboBox.IsEnabled = false;
-            PasswordBox.IsEnabled = false;
         }
 
         // Helper to Reset Fields (if Cancel is pressed)
@@ -108,7 +107,6 @@ namespace MatchmakingPlatform.Forms
             AddressTextBox.Text = "";
             CityTextBox.Text = "";
             StateComboBox.SelectedIndex = -1;
-            PasswordBox.Password = "";
         }
 
         // Validation Function
@@ -121,8 +119,7 @@ namespace MatchmakingPlatform.Forms
                 string.IsNullOrWhiteSpace(ContactNumberTextBox.Text) ||
                 string.IsNullOrWhiteSpace(AddressTextBox.Text) ||
                 string.IsNullOrWhiteSpace(CityTextBox.Text) ||
-                StateComboBox.SelectedIndex == -1 ||
-                string.IsNullOrWhiteSpace(PasswordBox.Password))
+                StateComboBox.SelectedIndex == -1)
             {
                 return false;
             }
@@ -154,6 +151,18 @@ namespace MatchmakingPlatform.Forms
                 {
                     MessageBox.Show("An error occurred while loading the image.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
+            }
+        }
+
+        private void prefrenceButton_Click(object sender, RoutedEventArgs e){
+            var customMessageBox = new CustomMessageBox();
+            if(customMessageBox.ShowDialog() == true)
+            {
+                string selectedOption1 = customMessageBox.SelectedOption1;
+                string selectedOption2 = customMessageBox.SelectedOption2;
+
+                MessageBox.Show($"You selected:\nOption 1: {selectedOption1}\nOption 2: {selectedOption2}", 
+                "Selection", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
     }
