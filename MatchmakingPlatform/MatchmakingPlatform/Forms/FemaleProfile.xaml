@@ -36,7 +36,7 @@
                 </StackPanel>
 
                 <!-- Form Fields Section -->
-                <Grid Margin="0,0,0,20">
+                <Grid Margin="0,0,0,0">
                     <!-- Grid Columns for Two Attributes per Row -->
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
@@ -86,12 +86,32 @@
                     </ComboBox>
 
                     <!-- Password -->
-                    <TextBlock Text="Password:" Grid.Row="7" Foreground="Gray" VerticalAlignment="Center" Margin="0,5"/>
-                    <PasswordBox Grid.Row="7" Grid.Column="1" Width="Auto" MinWidth="200" Height="30" Background="#F8F9FA" BorderBrush="#BDBDBD" x:Name="PasswordBox" IsEnabled="False" FontSize="16" Margin="10,5,0,5"/>
+                    <Button  Grid.Column="1" Grid.Row="7" 
+                            Width="120" 
+                            Height="30"
+                            Background="Orange"
+                            Foreground="White"
+                            FontSize="16"
+                            Content="Add Prefrence"
+                            x:Name="prefrenceButton"
+                            Click="prefrenceButton_Click"/>
+                    <!--
+                    <TextBlock Text="Password:" Grid.Row="7" 
+                               Foreground="Gray" 
+                               VerticalAlignment="Center" 
+                               Margin="0,5"/>
+                    <PasswordBox Grid.Row="7" Grid.Column="1" 
+                                 Width="Auto" MinWidth="200" 
+                                 Height="30" Background="#F8F9FA" 
+                                 BorderBrush="#BDBDBD" 
+                                 x:Name="PasswordBox" 
+                                 IsEnabled="False" FontSize="16" 
+                                 Margin="10,5,0,5"/>
+                    -->
                 </Grid>
 
                 <!-- Buttons Section -->
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="20,20,0,0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,0">
                     <Button x:Name="EditInfoButton" Content="Edit Info" Width="100" Margin="5" Click="EditInfoButton_Click"/>
                     <Button x:Name="SaveButton" Content="Save" Width="100" Margin="5" Background="Orange" Foreground="White" FontWeight="Bold" Click="SaveButton_Click"/>
                     <Button x:Name="CancelButton" Content="Cancel" Width="100" Margin="5" Click="CancelButton_Click"/>

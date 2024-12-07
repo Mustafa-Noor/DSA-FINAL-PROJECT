@@ -1,10 +1,5 @@
-﻿MatchmakingPlatform
-1.0.0.0
-
-winexe
-C#
-.cs
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\
+<<<<<<< HEAD
 MatchmakingPlatform
 none
 false
@@ -18,3 +13,5 @@ BL\Female.xaml;BL\Male.xaml;BL\Register.xaml;BL\SignIn.xaml;Forms\FemaleProfile.
 
 True
 
+=======
+>>>>>>> af48e5eea22c8d7245f7018ba668c2f1df85d5f7
