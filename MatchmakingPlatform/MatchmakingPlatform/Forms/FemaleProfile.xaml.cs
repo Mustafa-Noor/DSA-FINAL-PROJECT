@@ -12,12 +12,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace MatchmakingPlatform.Forms {
+namespace MatchmakingPlatform.Forms
+{
     /// <summary>
-    /// Interaction logic for MaleSignup.xaml
+    /// Interaction logic for FemaleProfile.xaml
     /// </summary>
-    public partial class MaleSignup : Window {
-        public MaleSignup() {
+    public partial class FemaleProfile : Window
+    {
+        public FemaleProfile()
+        {
             InitializeComponent();
         }
     }

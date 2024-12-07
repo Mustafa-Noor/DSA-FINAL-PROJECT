@@ -13,10 +13,10 @@
     <Compile Update="BL\Male.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Forms\FemaleSignUp.xaml.cs">
+    <Compile Update="Forms\FemaleProfile.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Forms\MaleSignup.xaml.cs">
+    <Compile Update="Forms\MaleProfile.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -27,10 +27,10 @@
     <Page Update="BL\Male.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Forms\FemaleSignUp.xaml">
+    <Page Update="Forms\FemaleProfile.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Forms\MaleSignup.xaml">
+    <Page Update="Forms\MaleProfile.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">

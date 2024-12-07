@@ -1,5 +1,4 @@
-﻿using MatchmakingPlatform.BL;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,17 +12,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace MatchmakingPlatform.Forms {
+namespace MatchmakingPlatform.Forms
+{
     /// <summary>
-    /// Interaction logic for FemaleSignUp.xaml
+    /// Interaction logic for MaleProfile.xaml
     /// </summary>
-    public partial class FemaleSignUp : Window {
-        public FemaleSignUp() {
+    public partial class MaleProfile : Window
+    {
+        public MaleProfile()
+        {
             InitializeComponent();
-        }
-
-        void AddFemale() {
-            
         }
     }
 }
