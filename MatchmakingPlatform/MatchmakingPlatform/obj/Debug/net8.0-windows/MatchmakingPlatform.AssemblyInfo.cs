@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MatchmakingPlatform")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d58a6e5f372ef84d5aa0517a9b65640d6edca376")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+901b6b9d3370a8c576a3dc85203b87b317333af2")]
 [assembly: System.Reflection.AssemblyProductAttribute("MatchmakingPlatform")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MatchmakingPlatform")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -18,7 +18,8 @@ namespace MatchmakingPlatform.BL {
     /// Interaction logic for Female.xaml
     /// </summary>
     public partial class Female : UserControl {
-        public Female() {
+        
+        public Female(){
             InitializeComponent();
         }
     }

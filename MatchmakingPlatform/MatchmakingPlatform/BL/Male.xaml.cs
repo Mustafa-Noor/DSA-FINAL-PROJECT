@@ -21,5 +21,9 @@ namespace MatchmakingPlatform.BL {
         public Male() {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e) {
+
+        }
     }
 }
