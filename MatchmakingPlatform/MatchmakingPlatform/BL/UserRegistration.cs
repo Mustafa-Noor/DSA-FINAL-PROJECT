@@ -27,6 +27,16 @@ namespace MatchmakingPlatform.BL
 
         }
 
+        public static bool CheckPassword(string password, UserRegistration user)
+        {
+            if(user.Password == password)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
 
         public override string ToString()
         {
