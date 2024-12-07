@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\PMLS\\.nuget\\packages\\": {}
+    "C:\\Users\\musno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PMLS\\Desktop\\Final Project\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\MatchmakingPlatform.csproj",
+      "projectUniqueName": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\MatchmakingPlatform.csproj",
       "projectName": "MatchmakingPlatform",
-      "projectPath": "C:\\Users\\PMLS\\Desktop\\Final Project\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\MatchmakingPlatform.csproj",
-      "packagesPath": "C:\\Users\\PMLS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PMLS\\Desktop\\Final Project\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\obj\\",
+      "projectPath": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\MatchmakingPlatform.csproj",
+      "packagesPath": "C:\\Users\\musno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PMLS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\musno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
