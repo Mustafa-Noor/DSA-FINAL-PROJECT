@@ -12,8 +12,8 @@ namespace MatchmakingPlatform.BL
         private void OpenRegisterPage_Click(object sender, RoutedEventArgs e)
         {
             // Create an instance of the Register window
-            Register registerWindow = new Register();
-            //Forms.FemaleProfile registerWindow = new Forms.FemaleProfile();
+            //Register registerWindow = new Register();
+            Forms.FemaleProfile registerWindow = new Forms.FemaleProfile();
 
             // Show the Register window
             registerWindow.Show();
