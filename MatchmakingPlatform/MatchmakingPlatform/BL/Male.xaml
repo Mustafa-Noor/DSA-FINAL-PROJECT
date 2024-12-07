@@ -7,6 +7,9 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <Button Click="Button_Click" Content="Theeta is my Friend" FontSize="35"/>
+        <Button Click="Button_Click" Content="Theeta is my Friend" FontSize="35" Width="200" Height="70"/>
+        <Button Click="Button_Click" Content="Theeta is my Jigar" FontSize="35" Width="200" 
+                Height="70"
+                HorizontalAlignment="left"/>
     </Grid>
 </UserControl>
