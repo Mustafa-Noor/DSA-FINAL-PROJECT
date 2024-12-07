@@ -7,9 +7,10 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <Button Click="Button_Click" Content="Theeta is my Friend and Asad is my bestie" FontSize="35" Height="70" Margin="253,190,183,190"/>
-        <Button Click="Button_Click" Content="Theeta is my Jigar" FontSize="35" Width="200" 
+        <Button Click="Button_Click" Content="Theeta is my Friend and Asad is my baddi" FontSize="35" Height="70" Margin="0,61,30,319"/>
+        <Button Click="Button_Click" Content="Theeta is my Jigar" FontSize="35" Width="800" 
                 Height="70"
-                HorizontalAlignment="left"/>
+                HorizontalAlignment="Center" Margin="0,190,0,190"/>
+
     </Grid>
 </UserControl>
