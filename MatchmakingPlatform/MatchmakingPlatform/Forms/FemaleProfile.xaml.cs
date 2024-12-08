@@ -1,12 +1,12 @@
 ﻿using MatchmakingPlatform.Extras;
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 
 namespace MatchmakingPlatform.Forms
 {
     public partial class FemaleProfile : Window
     {
+        HashSet<string> prefrences = new HashSet<string>();
         public FemaleProfile()
         {
             InitializeComponent();
@@ -161,8 +161,14 @@ namespace MatchmakingPlatform.Forms
                 string selectedOption1 = customMessageBox.SelectedOption1;
                 string selectedOption2 = customMessageBox.SelectedOption2;
 
-                MessageBox.Show($"You selected:\nOption 1: {selectedOption1}\nOption 2: {selectedOption2}", 
+                if(!prefrences.Contains(selectedOption1)){
+                    MessageBox.Show($"You selected:\nOption 1: {selectedOption1}\nOption 2: {selectedOption2}", 
                 "Selection", MessageBoxButton.OK, MessageBoxImage.Information);
+                    prefrences.Add(selectedOption1);
+                }else{
+                    MessageBox.Show("this particular prefrence already exists.consider removing it to edit this","Warninig",MessageBoxButton.OK,MessageBoxImage.Warning);
+                }
+                
             }
         }
     }
