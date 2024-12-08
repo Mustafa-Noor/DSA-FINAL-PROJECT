@@ -21,10 +21,14 @@
 
         <!-- ComboBox 1 -->
         <TextBlock Text="Preference:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" />
-        <ComboBox x:Name="ComboBox1" Grid.Row="0" Grid.Column="1" Width="130" />
+        <ComboBox x:Name="ComboBox1" Grid.Row="0" 
+                  Grid.Column="1" 
+                  Width="130" 
+                  SelectionChanged="ComboBox1_SelectionChanged"/>
 
         <TextBlock Grid.Row="1" Text="Value" Grid.Column="0" VerticalAlignment="Center"/>
-        <TextBox Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Width="130"/>
+        <TextBox Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Width="130"
+                 x:Name="PrefrenceText"/>
 
         <!-- ComboBox 2 -->
         <TextBlock Text="Latency:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" />
@@ -33,7 +37,7 @@
         <!-- OK Button -->
         <Button Content="OK" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" 
                 HorizontalAlignment="Center" Margin="10" Padding="5" 
-                Width="100" Click="OKButton_Click" />
+                Width="100" Click="OKButton_Click"/>
 
     </Grid>
 </Window>

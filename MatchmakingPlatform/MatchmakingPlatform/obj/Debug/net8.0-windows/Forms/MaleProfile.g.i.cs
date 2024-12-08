@@ -53,7 +53,7 @@ namespace MatchmakingPlatform.Forms {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MatchmakingPlatform;component/forms/maleprofile.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MatchmakingPlatform;V1.0.0.0;component/forms/maleprofile.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Forms\MaleProfile.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
