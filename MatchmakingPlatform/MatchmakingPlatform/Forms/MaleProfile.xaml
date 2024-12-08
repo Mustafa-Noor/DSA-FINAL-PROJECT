@@ -1,12 +1,140 @@
 ﻿<Window x:Class="MatchmakingPlatform.Forms.MaleProfile"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:MatchmakingPlatform.Forms"
-        mc:Ignorable="d"
-        Title="MaleProfile" Height="450" Width="800">
-    <Grid>
-        
+        Title="Edit Profile" Height="750" Width="600" Background="#F3F4F6" WindowStartupLocation="CenterScreen">
+    <Grid Margin="20">
+        <!-- Background Gradient with Texture -->
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#FF6A00" Offset="0"/>
+                <GradientStop Color="#FF6347" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <ScrollViewer>
+            <!-- Main Form Container -->
+            <Border Background="White" CornerRadius="15" Padding="30" VerticalAlignment="Stretch" HorizontalAlignment="Center">
+                <Border.Effect>
+                    <DropShadowEffect BlurRadius="25" ShadowDepth="15" Direction="320" Color="#888888" />
+                </Border.Effect>
+
+                <!-- Grid Layout for Profile Form -->
+                <Grid VerticalAlignment="Stretch">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <!-- Profile Photo and Title -->
+                        <RowDefinition Height="*"/>
+                        <!-- Content Section -->
+                        <RowDefinition Height="Auto"/>
+                        <!-- Buttons Section -->
+                    </Grid.RowDefinitions>
+
+                    <!-- Profile Layout (Top Section) -->
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="0">
+                        <!-- Title -->
+                        <TextBlock Text="Edit Profile" FontSize="36" FontWeight="Bold" Foreground="#FF6347" HorizontalAlignment="Center" Margin="0,10,0,20"/>
+
+                        <!-- Profile Photo Section -->
+                        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,0,20">
+                            <!-- Circular Photo -->
+                            <Grid Width="120" Height="120">
+                                <Grid.Clip>
+                                    <EllipseGeometry RadiusX="60" RadiusY="60" Center="60,60"/>
+                                </Grid.Clip>
+                                <Image Name="ProfileImage" Width="120" Height="120" Stretch="UniformToFill"/>
+                            </Grid>
+                            <!-- Upload Photo Button -->
+                            <Button Content="Upload Photo" Width="150" Height="40" Background="#FF6347" Foreground="White" FontWeight="Bold" BorderBrush="Transparent" Click="UploadPhotoButton_Click" Margin="0,10,0,0"/>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <!-- Form Fields Section (Center Section) -->
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Stretch" Grid.Row="1">
+                        <Grid Margin="0,0,0,0">
+                            <!-- Grid Columns for Two Attributes per Row -->
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <!-- First Name -->
+                            <TextBlock Text="First Name:" Foreground="Gray" VerticalAlignment="Center" Margin="0,5"/>
+                            <TextBox Grid.Column="1" Width="Auto" MinWidth="200" Height="30" Background="#F8F9FA" BorderBrush="#BDBDBD" x:Name="FirstNameTextBox" IsEnabled="False" FontSize="16" Margin="10,5,0,5"/>
+
+                            <!-- Last Name -->
+                            <TextBlock Text="Last Name:" Grid.Row="1" Foreground="Gray" VerticalAlignment="Center" Margin="0,5"/>
+                            <TextBox Grid.Row="1" Grid.Column="1" Width="Auto" MinWidth="200" Height="30" Background="#F8F9FA" BorderBrush="#BDBDBD" x:Name="LastNameTextBox" IsEnabled="False" FontSize="16" Margin="10,5,0,5"/>
+
+                            <!-- Email -->
+                            <TextBlock Text="Email:" Grid.Row="2" Foreground="Gray" VerticalAlignment="Center" Margin="0,5"/>
+                            <TextBox Grid.Row="2" Grid.Column="1" Width="Auto" MinWidth="200" Height="30" Background="#F8F9FA" BorderBrush="#BDBDBD" x:Name="EmailTextBox" IsEnabled="False" FontSize="16" Margin="10,5,0,5"/>
+
+                            <!-- Contact Number -->
+                            <TextBlock Text="Contact Number:" Grid.Row="3" Foreground="Gray" VerticalAlignment="Center" Margin="0,5"/>
+                            <TextBox Grid.Row="3" Grid.Column="1" Width="Auto" MinWidth="200" Height="30" Background="#F8F9FA" BorderBrush="#BDBDBD" x:Name="ContactNumberTextBox" IsEnabled="False" FontSize="16" Margin="10,5,0,5"/>
+
+                            <!-- Address -->
+                            <TextBlock Text="Address:" Grid.Row="4" Foreground="Gray" VerticalAlignment="Center" Margin="0,5"/>
+                            <TextBox Grid.Row="4" Grid.Column="1" Width="Auto" MinWidth="200" Height="30" Background="#F8F9FA" BorderBrush="#BDBDBD" x:Name="AddressTextBox" IsEnabled="False" FontSize="16" Margin="10,5,0,5"/>
+
+                            <!-- City -->
+                            <TextBlock Text="City:" Grid.Row="5" Foreground="Gray" VerticalAlignment="Center" Margin="0,5"/>
+                            <TextBox Grid.Row="5" Grid.Column="1" Width="Auto" MinWidth="200" Height="30" Background="#F8F9FA" BorderBrush="#BDBDBD" x:Name="CityTextBox" IsEnabled="False" FontSize="16" Margin="10,5,0,5"/>
+
+                            <!-- Height -->
+                            <TextBlock Text="Height (in cm):" Grid.Row="6" Foreground="Gray" VerticalAlignment="Center" Margin="0,5"/>
+                            <TextBox Grid.Row="6" Grid.Column="1" Width="Auto" MinWidth="200" Height="30" Background="#F8F9FA" BorderBrush="#BDBDBD" x:Name="HeightTextBox" FontSize="16" Margin="10,5,0,5"/>
+
+                            <!-- Profession (Job) -->
+                            <TextBlock Text="Profession:" Grid.Row="7" Foreground="Gray" VerticalAlignment="Center" Margin="0,5"/>
+                            <TextBox Grid.Row="7" Grid.Column="1" Width="Auto" MinWidth="200" Height="30" Background="#F8F9FA" BorderBrush="#BDBDBD" x:Name="ProfessionTextBox" FontSize="16" Margin="10,5,0,5"/>
+
+                            <!-- Education -->
+                            <TextBlock Text="Education:" Grid.Row="8" Foreground="Gray" VerticalAlignment="Center" Margin="0,5"/>
+                            <ComboBox Grid.Row="8" Grid.Column="1" Width="Auto" MinWidth="200" Height="30" Background="#F8F9FA" BorderBrush="#BDBDBD" x:Name="EducationComboBox" FontSize="16" Margin="10,5,0,5">
+                                <ComboBoxItem Content="Under Matric"/>
+                                <ComboBoxItem Content="Matric"/>
+                                <ComboBoxItem Content="Intermediate"/>
+                                <ComboBoxItem Content="Diploma"/>
+                                <ComboBoxItem Content="Bachelor's"/>
+                                <ComboBoxItem Content="Master's"/>
+                                <ComboBoxItem Content="Doctorate"/>
+                            </ComboBox>
+
+                            <!-- Salary -->
+                            <TextBlock Text="Salary (in PKR):" Grid.Row="9" Foreground="Gray" VerticalAlignment="Center" Margin="0,5"/>
+                            <TextBox Grid.Row="9" Grid.Column="1" Width="Auto" MinWidth="200" Height="30" Background="#F8F9FA" BorderBrush="#BDBDBD" x:Name="SalaryTextBox" FontSize="16" Margin="10,5,0,5"/>
+
+                            <!-- Add Preference -->
+                            <Button Grid.Column="1" Grid.Row="10" Width="120" Height="30" Background="#FF6347" Foreground="White" FontSize="16" Content="Add Preference" x:Name="prefrenceButton" Click="prefrenceButton_Click"/>
+
+                            <!-- View Preferences Button -->
+                            <Button Grid.Column="1" Grid.Row="11" Width="120" Height="30" Background="#FF6A00" Foreground="White" FontSize="16" Content="View Preferences" x:Name="viewPreferencesButton" Click="ViewPreferencesButton_Click"/>
+                        </Grid>
+                    </StackPanel>
+
+                    <!-- Buttons Section (Bottom Section) -->
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="2" Margin="0,10,0,0">
+                        <Button x:Name="EditInfoButton" Content="Edit Info" Width="100" Margin="5" Click="EditInfoButton_Click"/>
+                        <Button x:Name="SaveButton" Content="Save" Width="100" Margin="5" Background="#FF6347" Foreground="White" FontWeight="Bold" Click="SaveButton_Click"/>
+                        <Button x:Name="CancelButton" Content="Cancel" Width="100" Margin="5" Click="CancelButton_Click"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </ScrollViewer>
     </Grid>
 </Window>

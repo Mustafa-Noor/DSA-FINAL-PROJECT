@@ -13,8 +13,8 @@ namespace MatchmakingPlatform.BL
         {
             // Create an instance of the Register window
             //Register registerWindow = new Register();
-            Forms.FemaleProfile registerWindow = new Forms.FemaleProfile();
-
+            //Forms.FemaleProfile registerWindow = new Forms.FemaleProfile();
+            Forms.MaleProfile registerWindow = new Forms.MaleProfile();
             // Show the Register window
             registerWindow.Show();
         }
