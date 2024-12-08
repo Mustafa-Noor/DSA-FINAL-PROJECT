@@ -22,9 +22,6 @@
     <Compile Update="Forms\MaleProfile.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Forms\testWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="BL\Female.xaml">
@@ -40,9 +37,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Forms\MaleProfile.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Forms\testWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
