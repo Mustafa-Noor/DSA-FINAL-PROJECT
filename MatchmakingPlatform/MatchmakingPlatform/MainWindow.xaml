@@ -3,7 +3,26 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Main Window" Height="300" Width="400" Background="#F0F8FF" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Button Content="Open Register Page" Width="200" Height="50" HorizontalAlignment="Center" VerticalAlignment="Center"
-                Click="OpenRegisterPage_Click" Background="#2196F3" Foreground="White" FontWeight="Bold"/>
+        <Button Content="Open Register Page" 
+                Margin="0 0 0 65"
+                Width="200" 
+                Height="50" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center"
+                Click="OpenRegisterPage_Click" 
+                Background="#2196F3" 
+                Foreground="White" 
+                FontWeight="Bold"/>
+
+        <Button Content="Sign In"
+                Margin="0 65 0 0"
+                Width="200" 
+                Height="50" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center"
+                Click="SignIn_Click" 
+                Background="#2196F3" 
+                Foreground="White" 
+                FontWeight="Bold"/>
     </Grid>
 </Window>

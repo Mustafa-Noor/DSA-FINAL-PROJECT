@@ -18,5 +18,8 @@ namespace MatchmakingPlatform.BL
             // Show the Register window
             registerWindow.Show();
         }
+        private void SignIn_Click(object sender, RoutedEventArgs e){
+
+        }
     }
 }
