@@ -13,6 +13,7 @@ using System.Windows.Shapes;
 using System.Windows;
 using MatchmakingPlatform;
 using MatchmakingPlatform.DL;
+using MatchmakingPlatform.Forms;
 
 namespace MatchmakingPlatform.BL
 {
@@ -77,7 +78,10 @@ namespace MatchmakingPlatform.BL
                         {
                             if (Male.CheckPassword(PasswordBox1.Password, user))
                             {
-                                MessageBox.Show("Male Signed In Successfully!!!");
+                                MaleProfile maleWindow = new MaleProfile(user);
+                                maleWindow.Show(); // Show the SignIn window
+
+                                this.Close();
                             }
                             else
                             {
@@ -87,14 +91,17 @@ namespace MatchmakingPlatform.BL
                        
                         }
                     }
-                    if (FemaleDL.CheckUserExists(UsernameTextBox.Text))
+                    else if (FemaleDL.CheckUserExists(UsernameTextBox.Text))
                     {
                         Female user = FemaleDL.FindUser(UsernameTextBox.Text);
                         if (user != null)
                         {
                             if (Female.CheckPassword(PasswordBox1.Password, user))
                             {
-                                MessageBox.Show("Female Signed In Successfully!!!");
+                                FemaleProfile femaleWindow = new FemaleProfile(user);
+                                femaleWindow.Show(); // Show the SignIn window
+
+                                this.Close(); // Close the Register window
                             }
                             else
                             {

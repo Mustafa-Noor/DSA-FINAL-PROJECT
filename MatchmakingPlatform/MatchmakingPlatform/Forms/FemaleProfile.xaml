@@ -117,7 +117,10 @@
                             <ComboBoxItem Content="Doctorate"/>
                         </ComboBox>
 
-                        <!-- Add Preference -->
+                            <!-- Error Message TextBlock -->
+                            <TextBlock Name="ErrorMessageTextBlock" Foreground="Red" Visibility="Collapsed" Margin="0,10" FontSize="18"/>
+                        
+                            <!-- Add Preference -->
                         <Button Grid.Column="1" Grid.Row="9" Width="120" Height="30" Background="Orange" Foreground="White" FontSize="16" Content="Add Preference" x:Name="prefrenceButton" Click="prefrenceButton_Click"/>
 
                         <!-- View Preferences Button -->
