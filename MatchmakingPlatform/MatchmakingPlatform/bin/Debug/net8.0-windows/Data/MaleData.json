@@ -1,0 +1,19 @@
+{
+  "salman": {
+    "UserName": "salman",
+    "Password": "121212",
+    "FirstName": "salman",
+    "LastName": null,
+    "Email": "salm@1212.ca",
+    "ContactNumber": "12123412671",
+    "Address": null,
+    "City": null,
+    "Profession": null,
+    "Height": 0,
+    "Education": null,
+    "Salary": 0,
+    "Image": null,
+    "DateOfBirth": "2003-05-05T00:00:00",
+    "Gender": "Male"
+  }
+}

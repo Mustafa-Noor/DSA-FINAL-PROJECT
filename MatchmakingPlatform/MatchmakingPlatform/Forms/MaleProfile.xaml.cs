@@ -1,7 +1,6 @@
 ﻿using MatchmakingPlatform.Extras;
 using System.Windows;
 using System.Windows.Media.Imaging;
-using System.Collections.Generic;
 using MatchmakingPlatform.BL;
 
 namespace MatchmakingPlatform.Forms
@@ -19,6 +18,7 @@ namespace MatchmakingPlatform.Forms
             InitializeComponent();
             maleProfile = male;  // Initialize the male profile with the provided Male object
             PopulateFields();
+            WindowState = WindowState.Maximized;
         }
 
         // Edit Info Button
@@ -26,27 +26,17 @@ namespace MatchmakingPlatform.Forms
         {
             if (!isEditing)
             {
-                // Enable all input fields
-                FirstNameTextBox.IsEnabled = true;
-                LastNameTextBox.IsEnabled = true;
-                EmailTextBox.IsEnabled = true;
-                ContactNumberTextBox.IsEnabled = true;
-                AddressTextBox.IsEnabled = true;
-                CityTextBox.IsEnabled = true;
-                ProfessionTextBox.IsEnabled = true;
-                HeightTextBox.IsEnabled = true;
-                EducationComboBox.IsEnabled = true;
-                SalaryTextBox.IsEnabled = true;  // Enable Salary TextBox
-
-                // Change button text to "Cancel Edit"
-                (sender as System.Windows.Controls.Button).Content = "Cancel Edit";
+                EnableFields();
+                EditInfoButton.Content = "Cancel Edit";
+                CancelButton.Content = "Clear";
                 isEditing = true;
             }
             else
             {
                 // Disable all input fields and reset button text
                 DisableFields();
-                (sender as System.Windows.Controls.Button).Content = "Edit Info";
+                EditInfoButton.Content = "Edit Info";
+                CancelButton.Content = "Next";
                 isEditing = false;
             }
         }
@@ -66,12 +56,11 @@ namespace MatchmakingPlatform.Forms
                 EducationComboBox.SelectedItem = maleProfile.Education;
                 SalaryTextBox.Text = maleProfile.Salary.ToString();
 
-
                 if (maleProfile.Image != null)
                 {
                     try
                     {
-                        ProfileImage.Source = maleProfile.Image;  // Assign directly
+                        ProfileImage.Source = maleProfile.Image; //Assign directly
                     }
                     catch
                     {
@@ -79,13 +68,6 @@ namespace MatchmakingPlatform.Forms
                     }
                 }
             }
-            else
-            {
-                MessageBox.Show("error sale");
-            }
-            
-
-            
         }
         // Save Button
         private void SaveButton_Click(object sender, RoutedEventArgs e)
@@ -128,29 +110,21 @@ namespace MatchmakingPlatform.Forms
         // Cancel Button
         private void CancelButton_Click(object sender, RoutedEventArgs e)
         {
-            if (isEditing)
+            if(isEditing)
             {
-                // Reset the fields to their original state
                 ResetFields();
                 DisableFields();
 
-                // Reset Edit Info button
-                var editButton = LogicalTreeHelper.FindLogicalNode(this, "EditInfoButton") as System.Windows.Controls.Button;
-                if (editButton != null)
-                {
-                    editButton.Content = "Edit Info";
-                }
-
+                CancelButton.Content = "Next";
+                EditInfoButton.Content = "Edit Info";
                 isEditing = false;
             }
             else
             {
-                // Close the window
+                //Conent for the next window
                 this.Close();
             }
         }
-
-        // Helper to Disable Fields
         private void DisableFields()
         {
             FirstNameTextBox.IsEnabled = false;
@@ -165,7 +139,20 @@ namespace MatchmakingPlatform.Forms
             SalaryTextBox.IsEnabled = false; // Disable Salary TextBox
         }
 
-        // Helper to Reset Fields (if Cancel is pressed)
+        private void EnableFields()
+        {
+            FirstNameTextBox.IsEnabled = true;
+            LastNameTextBox.IsEnabled = true;
+            EmailTextBox.IsEnabled = true;
+            ContactNumberTextBox.IsEnabled = true;
+            AddressTextBox.IsEnabled = true;
+            CityTextBox.IsEnabled = true;
+            ProfessionTextBox.IsEnabled = true;
+            HeightTextBox.IsEnabled = true;
+            EducationComboBox.IsEnabled = true;
+            SalaryTextBox.IsEnabled = true; // Disable Salary TextBox
+        }
+
         private void ResetFields()
         {
             // Reset fields to default or previously saved values
@@ -187,7 +174,7 @@ namespace MatchmakingPlatform.Forms
 
             if (isEditing)
             {
-                ErrorMessageTextBlock.Visibility = Visibility.Collapsed; // Hide error message initially
+                ErrorMessage.Visibility = Visibility.Collapsed; // Hide error message initially
 
                 // Validate first name
                 if (Validations.CheckforEmpty(FirstNameTextBox.Text) || Validations.CheckingForSpace(FirstNameTextBox.Text))
@@ -256,8 +243,8 @@ namespace MatchmakingPlatform.Forms
         // Helper method to show error messages
         private void ShowErrorMessage(string message)
         {
-            ErrorMessageTextBlock.Text = message;
-            ErrorMessageTextBlock.Visibility = Visibility.Visible;
+            ErrorMessage.Text = message;
+            ErrorMessage.Visibility = Visibility.Visible;
         }
 
 
