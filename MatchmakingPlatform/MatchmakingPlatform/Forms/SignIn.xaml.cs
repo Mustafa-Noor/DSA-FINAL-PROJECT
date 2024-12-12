@@ -68,20 +68,42 @@ namespace MatchmakingPlatform.BL
             } 
             else
             {
-                if (UserRegistrationDL.CheckUserExists(UsernameTextBox.Text))
+                if (MaleDL.CheckUserExists(UsernameTextBox.Text) || FemaleDL.CheckUserExists(UsernameTextBox.Text))
                 {
-                    UserRegistration user = UserRegistrationDL.FindUser(UsernameTextBox.Text);
-                    if (user != null)
+                    if (MaleDL.CheckUserExists(UsernameTextBox.Text))
                     {
-                        if(UserRegistration.CheckPassword(PasswordBox1.Password, user)){
-                            MessageBox.Show("Signed Up Successfully!!!");
-                        }
-                        else
+                        Male user = MaleDL.FindUser(UsernameTextBox.Text);
+                        if (user != null)
                         {
-                            ErrorMessageTextBlock.Text = "Incorrect Password";
-                            ErrorMessageTextBlock.Visibility = Visibility.Visible;
+                            if (Male.CheckPassword(PasswordBox1.Password, user))
+                            {
+                                MessageBox.Show("Male Signed In Successfully!!!");
+                            }
+                            else
+                            {
+                                ErrorMessageTextBlock.Text = "Incorrect Password";
+                                ErrorMessageTextBlock.Visibility = Visibility.Visible;
+                            }
+                       
                         }
                     }
+                    if (FemaleDL.CheckUserExists(UsernameTextBox.Text))
+                    {
+                        Female user = FemaleDL.FindUser(UsernameTextBox.Text);
+                        if (user != null)
+                        {
+                            if (Female.CheckPassword(PasswordBox1.Password, user))
+                            {
+                                MessageBox.Show("Female Signed In Successfully!!!");
+                            }
+                            else
+                            {
+                                ErrorMessageTextBlock.Text = "Incorrect Password";
+                                ErrorMessageTextBlock.Visibility = Visibility.Visible;
+                            }
+                        }
+                    }
+
                 }
                 else
                 {
