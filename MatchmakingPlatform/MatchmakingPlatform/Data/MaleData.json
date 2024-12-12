@@ -1,0 +1,53 @@
+{
+  "salman": {
+    "UserName": "salman",
+    "Password": "123456",
+    "FirstName": "salman",
+    "LastName": null,
+    "Email": "sal@123.com",
+    "ContactNumber": "12345678924",
+    "Address": null,
+    "City": null,
+    "Profession": null,
+    "Height": 0,
+    "Education": null,
+    "Salary": 0,
+    "Image": null,
+    "DateOfBirth": "2000-06-23T00:00:00",
+    "Gender": "Male"
+  },
+  "theeta": {
+    "UserName": "theeta",
+    "Password": "123456",
+    "FirstName": "theeta",
+    "LastName": null,
+    "Email": "theeta@urt.edu",
+    "ContactNumber": "19019089313",
+    "Address": null,
+    "City": null,
+    "Profession": null,
+    "Height": 0,
+    "Education": null,
+    "Salary": 0,
+    "Image": null,
+    "DateOfBirth": "2003-07-25T00:00:00",
+    "Gender": "Male"
+  },
+  "Mustafa": {
+    "UserName": "Mustafa",
+    "Password": "123456",
+    "FirstName": "Mustafa",
+    "LastName": null,
+    "Email": "theeta@uet.srd",
+    "ContactNumber": "09090946211",
+    "Address": null,
+    "City": null,
+    "Profession": null,
+    "Height": 0,
+    "Education": null,
+    "Salary": 0,
+    "Image": null,
+    "DateOfBirth": "2003-07-22T00:00:00",
+    "Gender": "Male"
+  }
+}

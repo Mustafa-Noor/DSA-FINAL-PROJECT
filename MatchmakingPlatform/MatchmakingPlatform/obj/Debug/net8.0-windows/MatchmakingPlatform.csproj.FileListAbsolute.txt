@@ -154,10 +154,8 @@ E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\Matchmaki
 E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\ref\MatchmakingPlatform.dll
 E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\Register.g.cs
 E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\SignIn.g.cs
-E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\testWindow.g.cs
 E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\Register.baml
 E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\SignIn.baml
-E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\testWindow.baml
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Extras\CustomMessageBox.g.cs
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\Register.g.cs
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\SignIn.g.cs
@@ -174,3 +172,5 @@ C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\Matchm
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Extras\CustomMessageBox.baml
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\Register.baml
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\SignIn.baml
+E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\PrefrenceWindow.baml
+E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\PrefrenceWindow.g.cs

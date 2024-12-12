@@ -1,15 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Controls;
-using System.Windows.Media.Imaging;
+﻿using System.Windows.Media.Imaging;
 
 namespace MatchmakingPlatform.BL
 {
-    public class Female:UserRegistration
+    public class Female
     {
+
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public string Email { get; set; }
+        public string PhoneNumber { get; set; }
+        public DateTime DateOfBirth { get; set; }
+        public string Gender { get; set;}
         public string firstName {  get; set; }
         public string lastName { get; set; }
         public string address { get; set; }
@@ -19,9 +20,16 @@ namespace MatchmakingPlatform.BL
         public string education { get; set; }
         public BitmapImage Image { get; set; }
 
-        public Female(string username, string password, string email, string phoneNumber, DateTime dateOfBirth, string gender): base(username, password, email, phoneNumber, dateOfBirth, gender) { 
-
+        public Female(string username, string password, string email, string phoneNumber, DateTime dateOfBirth, string gender){ 
+            firstName = username;
+            this.Username = username;
+            this.Password = password;
+            this.Email = email;
+            this.PhoneNumber = phoneNumber;
+            this.DateOfBirth = dateOfBirth;
+            this.Gender = gender;
         }
 
+        public bool CheckPassword(string password){ return Password == password;}
     }
 }

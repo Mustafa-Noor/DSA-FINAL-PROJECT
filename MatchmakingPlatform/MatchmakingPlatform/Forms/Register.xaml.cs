@@ -2,6 +2,7 @@
 using System.Windows;
 using MatchmakingPlatform.DL;
 using MatchmakingPlatform;
+using System.Runtime.ExceptionServices;
 
 namespace MatchmakingPlatform.BL
 {
@@ -10,6 +11,7 @@ namespace MatchmakingPlatform.BL
         public Register()
         {
             InitializeComponent();
+            WindowState = WindowState.Maximized;
         }
 
         // Register Button Click Event
