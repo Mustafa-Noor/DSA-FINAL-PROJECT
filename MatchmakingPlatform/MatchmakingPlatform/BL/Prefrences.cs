@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MatchmakingPlatform.BL{
+namespace MatchmakingPlatform{
     internal class Prefrences{
+
+
     }
 }
