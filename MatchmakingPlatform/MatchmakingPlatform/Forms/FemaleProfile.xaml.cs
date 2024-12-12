@@ -1,20 +1,55 @@
 ﻿using MatchmakingPlatform.Extras;
 using System.Windows;
 using System.Windows.Media.Imaging;
+using MatchmakingPlatform.BL;
+using MatchmakingPlatform.DL;   
 
 namespace MatchmakingPlatform.Forms
 {
     public partial class FemaleProfile : Window
     {
         HashSet<string> prefrences = new HashSet<string>();
-        public FemaleProfile()
+        private Female currentFemale;
+        public FemaleProfile(Female female)
         {
+            currentFemale = female;
             InitializeComponent();
+            PopulateFields();
         }
 
         // Flag to track edit state
         private bool isEditing = false;
 
+
+        private void PopulateFields()
+        {
+            if (currentFemale != null)
+            {
+                FirstNameTextBox.Text = currentFemale.firstName;
+                LastNameTextBox.Text = currentFemale.lastName;
+                EmailTextBox.Text = currentFemale.Email;
+                ContactNumberTextBox.Text = currentFemale.PhoneNumber;
+                AddressTextBox.Text = currentFemale.address;
+                CityTextBox.Text = currentFemale.city;
+                StatusComboBox.Text = currentFemale.status;
+                HeightTextBox.Text = currentFemale.height.ToString();
+                EducationComboBox.Text = currentFemale.education;
+
+                if (currentFemale.Image != null)
+                {
+                    try
+                    {
+                        ProfileImage.Source = currentFemale.Image;  // Assign directly
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Failed to load profile image.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
+                }
+
+
+            }
+        }
         // Edit Info Button
         private void EditInfoButton_Click(object sender, RoutedEventArgs e)
         {
@@ -49,9 +84,25 @@ namespace MatchmakingPlatform.Forms
         {
             if (!ValidateFields())
             {
-                MessageBox.Show("Please fill all required fields.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                //MessageBox.Show("Please fill all required fields.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
+
+            if (!isEditing)
+            {
+                MessageBox.Show("Select editing Option", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            currentFemale.firstName = FirstNameTextBox.Text;
+            currentFemale.lastName = LastNameTextBox.Text;
+            currentFemale.Email = EmailTextBox.Text;
+            currentFemale.PhoneNumber = ContactNumberTextBox.Text;
+            currentFemale.address = AddressTextBox.Text;
+            currentFemale.city = CityTextBox.Text;
+            currentFemale.status = StatusComboBox.Text;
+            currentFemale.height = float.Parse(HeightTextBox.Text);
+            currentFemale.education = EducationComboBox.Text;
 
             // Logic to save the user information (e.g., save to database)
             MessageBox.Show("Profile information saved successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
@@ -118,28 +169,87 @@ namespace MatchmakingPlatform.Forms
         // Validation Function
         private bool ValidateFields()
         {
-            // Check if required fields are filled
-            if (string.IsNullOrWhiteSpace(FirstNameTextBox.Text) ||
-                string.IsNullOrWhiteSpace(LastNameTextBox.Text) ||
-                string.IsNullOrWhiteSpace(EmailTextBox.Text) ||
-                string.IsNullOrWhiteSpace(ContactNumberTextBox.Text) ||
-                string.IsNullOrWhiteSpace(AddressTextBox.Text) ||
-                string.IsNullOrWhiteSpace(CityTextBox.Text) ||
-                StatusComboBox.SelectedIndex == -1 || // Ensure status is selected
-                string.IsNullOrWhiteSpace(HeightTextBox.Text) || // Ensure height is provided
-                EducationComboBox.SelectedIndex == -1) // Ensure education is selected
+            if (isEditing)
             {
-                return false;
+                ErrorMessageTextBlock.Visibility = Visibility.Collapsed;
+
+                // Validate first name
+                if (Validations.CheckforEmpty(FirstNameTextBox.Text) || Validations.CheckingForSpace(FirstNameTextBox.Text))
+                {
+                    ErrorMessageTextBlock.Text = "First Name cannot be empty or contain spaces.";
+                    ErrorMessageTextBlock.Visibility = Visibility.Visible;
+                    return false;
+                }
+
+                // Validate last name
+                if (Validations.CheckforEmpty(LastNameTextBox.Text) || Validations.CheckingForSpace(LastNameTextBox.Text))
+                {
+                    ErrorMessageTextBlock.Text = "Last Name cannot be empty or contain spaces.";
+                    ErrorMessageTextBlock.Visibility = Visibility.Visible;
+                    return false;
+                }
+
+                // Validate email
+                if (Validations.CheckforEmpty(EmailTextBox.Text) || !Validations.ValidateEmailPattern(EmailTextBox.Text))
+                {
+                    ErrorMessageTextBlock.Text = "Email should be in the proper format.";
+                    ErrorMessageTextBlock.Visibility = Visibility.Visible;
+                    return false;
+                }
+
+                // Validate contact number
+                if (Validations.CheckforEmpty(ContactNumberTextBox.Text) || !Validations.ValidateContactPattern(ContactNumberTextBox.Text))
+                {
+                    ErrorMessageTextBlock.Text = "Phone Number should be in the correct format.";
+                    ErrorMessageTextBlock.Visibility = Visibility.Visible;
+                    return false;
+                }
+
+                // Validate address
+                if (Validations.CheckforEmpty(AddressTextBox.Text))
+                {
+                    ErrorMessageTextBlock.Text = "Address cannot be empty.";
+                    ErrorMessageTextBlock.Visibility = Visibility.Visible;
+                    return false;
+                }
+
+                // Validate city
+                if (Validations.CheckforEmpty(CityTextBox.Text))
+                {
+                    ErrorMessageTextBlock.Text = "City cannot be empty.";
+                    ErrorMessageTextBlock.Visibility = Visibility.Visible;
+                    return false;
+                }
+
+                // Validate status selection
+                if (StatusComboBox.SelectedIndex == -1)
+                {
+                    ErrorMessageTextBlock.Text = "Please select a status.";
+                    ErrorMessageTextBlock.Visibility = Visibility.Visible;
+                    return false;
+                }
+
+                // Validate height
+                if (Validations.CheckforEmpty(HeightTextBox.Text) || !double.TryParse(HeightTextBox.Text, out double height) || height <= 0)
+                {
+                    ErrorMessageTextBlock.Text = "Please enter a valid height.";
+                    ErrorMessageTextBlock.Visibility = Visibility.Visible;
+                    return false;
+                }
+
+                // Validate education selection
+                if (EducationComboBox.SelectedIndex == -1)
+                {
+                    ErrorMessageTextBlock.Text = "Please select your education.";
+                    ErrorMessageTextBlock.Visibility = Visibility.Visible;
+                    return false;
+                }
+
+                // Validation passed
+                return true;
             }
 
-            // Validate height field (only numeric and positive)
-            if (!double.TryParse(HeightTextBox.Text, out double height) || height <= 0)
-            {
-                MessageBox.Show("Please enter a valid height.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
-                return false;
-            }
-
-            return true;
+            return false;
         }
 
         // Upload Photo Button

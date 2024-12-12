@@ -9,13 +9,16 @@ namespace MatchmakingPlatform.Forms
     public partial class MaleProfile : Window
     {
         HashSet<string> preferences = new HashSet<string>();
+        private Male maleProfile;
 
         // Flag to track edit state
         private bool isEditing = false;
 
-        public MaleProfile()
+        public MaleProfile(Male male)
         {
             InitializeComponent();
+            maleProfile = male;  // Initialize the male profile with the provided Male object
+            PopulateFields();
         }
 
         // Edit Info Button
@@ -48,17 +51,74 @@ namespace MatchmakingPlatform.Forms
             }
         }
 
+        private void PopulateFields()
+        {
+            if (maleProfile != null)
+            {
+                FirstNameTextBox.Text = maleProfile.FirstName;
+                LastNameTextBox.Text = maleProfile.LastName;
+                EmailTextBox.Text = maleProfile.Email;
+                ContactNumberTextBox.Text = maleProfile.ContactNumber;
+                AddressTextBox.Text = maleProfile.Address;
+                CityTextBox.Text = maleProfile.City;
+                ProfessionTextBox.Text = maleProfile.Profession;
+                HeightTextBox.Text = maleProfile.Height.ToString();
+                EducationComboBox.SelectedItem = maleProfile.Education;
+                SalaryTextBox.Text = maleProfile.Salary.ToString();
+
+
+                if (maleProfile.Image != null)
+                {
+                    try
+                    {
+                        ProfileImage.Source = maleProfile.Image;  // Assign directly
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Failed to load profile image.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("error sale");
+            }
+            
+
+            
+        }
         // Save Button
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
             if (!ValidateFields())
             {
-                MessageBox.Show("Please fill all required fields.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                //MessageBox.Show("Please fill all required fields.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
-            // Logic to save the user information (e.g., save to database)
-            MessageBox.Show("Profile information saved successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+            if (!isEditing)
+            {
+                MessageBox.Show("Select editing Option", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            maleProfile.FirstName = FirstNameTextBox.Text;
+            maleProfile.LastName = LastNameTextBox.Text;
+            maleProfile.Email = EmailTextBox.Text;
+            maleProfile.ContactNumber = ContactNumberTextBox.Text;
+            maleProfile.Address = AddressTextBox.Text;
+            maleProfile.City = CityTextBox.Text;
+            maleProfile.Profession = ProfessionTextBox.Text;
+            maleProfile.Height = float.Parse(HeightTextBox.Text);
+            maleProfile.Education = EducationComboBox.SelectedItem.ToString();
+            maleProfile.Salary = float.Parse(SalaryTextBox.Text);
+
+            // Optionally, if you're handling the profile image:
+            if (ProfileImage.Source != null)
+            {
+                maleProfile.Image = (BitmapImage)ProfileImage.Source;
+            }
+
 
             // Disable fields after saving
             DisableFields();
@@ -124,37 +184,82 @@ namespace MatchmakingPlatform.Forms
         // Validation Function
         private bool ValidateFields()
         {
-            // Check if required fields are filled
-            if (string.IsNullOrWhiteSpace(FirstNameTextBox.Text) ||
-                string.IsNullOrWhiteSpace(LastNameTextBox.Text) ||
-                string.IsNullOrWhiteSpace(EmailTextBox.Text) ||
-                string.IsNullOrWhiteSpace(ContactNumberTextBox.Text) ||
-                string.IsNullOrWhiteSpace(AddressTextBox.Text) ||
-                string.IsNullOrWhiteSpace(CityTextBox.Text) ||
-                string.IsNullOrWhiteSpace(ProfessionTextBox.Text) ||
-                string.IsNullOrWhiteSpace(HeightTextBox.Text) || // Ensure height is provided
-                EducationComboBox.SelectedIndex == -1 || // Ensure education is selected
-                string.IsNullOrWhiteSpace(SalaryTextBox.Text)) // Ensure salary is provided
+
+            if (isEditing)
             {
-                return false;
+                ErrorMessageTextBlock.Visibility = Visibility.Collapsed; // Hide error message initially
+
+                // Validate first name
+                if (Validations.CheckforEmpty(FirstNameTextBox.Text) || Validations.CheckingForSpace(FirstNameTextBox.Text))
+                {
+                    ShowErrorMessage("First Name cannot be empty or contain spaces.");
+                    return false;
+                }
+
+                // Validate last name
+                if (Validations.CheckforEmpty(LastNameTextBox.Text) || Validations.CheckingForSpace(LastNameTextBox.Text))
+                {
+                    ShowErrorMessage("Last Name cannot be empty or contain spaces.");
+                    return false;
+                }
+
+                // Validate email
+                if (Validations.CheckforEmpty(EmailTextBox.Text) || !Validations.ValidateEmailPattern(EmailTextBox.Text))
+                {
+                    ShowErrorMessage("Email should be in the proper format.");
+                    return false;
+                }
+
+                // Validate contact number
+                if (Validations.CheckforEmpty(ContactNumberTextBox.Text) || !Validations.ValidateContactPattern(ContactNumberTextBox.Text))
+                {
+                    ShowErrorMessage("Phone Number should be in the correct format.");
+                    return false;
+                }
+
+                // Validate address
+                if (Validations.CheckforEmpty(AddressTextBox.Text))
+                {
+                    ShowErrorMessage("Address cannot be empty.");
+                    return false;
+                }
+
+                // Validate city
+                if (Validations.CheckforEmpty(CityTextBox.Text))
+                {
+                    ShowErrorMessage("City cannot be empty.");
+                    return false;
+                }
+
+
+                // Validate height
+                if (Validations.CheckforEmpty(HeightTextBox.Text) || !double.TryParse(HeightTextBox.Text, out double height) || height <= 0)
+                {
+                    ShowErrorMessage("Please enter a valid height.");
+                    return false;
+                }
+
+                // Validate education selection
+                if (EducationComboBox.SelectedIndex == -1)
+                {
+                    ShowErrorMessage("Please select your education.");
+                    return false;
+                }
+
+                // Validation passed
+                return true;
             }
 
-            // Validate height field (only numeric and positive)
-            if (!double.TryParse(HeightTextBox.Text, out double height) || height <= 0)
-            {
-                MessageBox.Show("Please enter a valid height.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
-                return false;
-            }
-
-            // Validate salary field (only numeric and positive)
-            if (!decimal.TryParse(SalaryTextBox.Text, out decimal salary) || salary <= 0)
-            {
-                MessageBox.Show("Please enter a valid salary (greater than 0).", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
-                return false;
-            }
-
-            return true;
+            return false;
         }
+
+        // Helper method to show error messages
+        private void ShowErrorMessage(string message)
+        {
+            ErrorMessageTextBlock.Text = message;
+            ErrorMessageTextBlock.Visibility = Visibility.Visible;
+        }
+
 
         // Upload Photo Button
         private void UploadPhotoButton_Click(object sender, RoutedEventArgs e)

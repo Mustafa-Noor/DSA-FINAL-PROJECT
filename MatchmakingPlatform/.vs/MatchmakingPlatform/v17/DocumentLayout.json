@@ -3,68 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\forms\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\forms\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\forms\\femaleprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\forms\\femaleprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|c:\\users\\musno\\onedrive\\desktop\\semester 3\\dsa\\projects\\dsa-final-project\\matchmakingplatform\\matchmakingplatform\\forms\\signin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\forms\\signin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\dl\\maledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\dl\\maledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\dl\\userregistrationdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\dl\\userregistrationdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\dl\\femaledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\dl\\femaledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\bl\\female.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\bl\\female.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\forms\\signin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\forms\\signin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\forms\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\forms\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\forms\\maleprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\forms\\maleprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\bl\\male.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\bl\\male.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\bl\\prefrences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\bl\\prefrences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\forms\\femaleprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\forms\\femaleprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\forms\\signin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\forms\\signin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\bl\\female.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\bl\\female.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\forms\\femaleprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\forms\\femaleprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\dl\\maledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\dl\\maledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\dl\\femaledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\dl\\femaledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\bl\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\bl\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\forms\\maleprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\forms\\maleprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|c:\\users\\musno\\onedrive\\desktop\\semester 3\\dsa\\projects\\dsa-final-project\\matchmakingplatform\\matchmakingplatform\\extras\\custommessagebox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\extras\\custommessagebox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\forms\\maleprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\forms\\maleprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\forms\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\forms\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\extras\\custommessagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\extras\\custommessagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\forms\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\forms\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\dl\\userregistrationdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\dl\\userregistrationdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\forms\\signin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\forms\\signin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\bl\\prefrences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\bl\\prefrences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\validations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,20 +82,8 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\musno\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\forms\\femaleprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\forms\\femaleprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\extras\\custommessagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\extras\\custommessagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\extras\\custommessagebox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\extras\\custommessagebox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\matchmakingplatform\\matchmakingplatform.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -110,103 +106,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserRegistrationDL.cs",
-              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\DL\\UserRegistrationDL.cs",
-              "RelativeDocumentMoniker": "MatchmakingPlatform\\DL\\UserRegistrationDL.cs",
-              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\DL\\UserRegistrationDL.cs",
-              "RelativeToolTip": "MatchmakingPlatform\\DL\\UserRegistrationDL.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwA0AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:49:09.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Register.xaml",
-              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\Register.xaml",
-              "RelativeDocumentMoniker": "MatchmakingPlatform\\Forms\\Register.xaml",
-              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\Register.xaml",
-              "RelativeToolTip": "MatchmakingPlatform\\Forms\\Register.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-07T13:49:09.381Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "Register.xaml.cs",
               "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\Register.xaml.cs",
               "RelativeDocumentMoniker": "MatchmakingPlatform\\Forms\\Register.xaml.cs",
               "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\Register.xaml.cs",
               "RelativeToolTip": "MatchmakingPlatform\\Forms\\Register.xaml.cs",
-              "ViewState": "AQIAAHEAAAAAAAAAAAAYwH4AAAAJAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwA8AAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T13:49:09.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SignIn.xaml",
-              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\SignIn.xaml",
-              "RelativeDocumentMoniker": "MatchmakingPlatform\\Forms\\SignIn.xaml",
-              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\SignIn.xaml",
-              "RelativeToolTip": "MatchmakingPlatform\\Forms\\SignIn.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-07T13:49:09.373Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SignIn.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\SignIn.xaml.cs",
-              "RelativeDocumentMoniker": "MatchmakingPlatform\\Forms\\SignIn.xaml.cs",
-              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\SignIn.xaml.cs",
-              "RelativeToolTip": "MatchmakingPlatform\\Forms\\SignIn.xaml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAADMAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:49:09.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\App.xaml",
-              "RelativeDocumentMoniker": "MatchmakingPlatform\\App.xaml",
-              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\App.xaml",
-              "RelativeToolTip": "MatchmakingPlatform\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-12T13:05:35.714Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Male.cs",
-              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\BL\\Male.cs",
-              "RelativeDocumentMoniker": "MatchmakingPlatform\\BL\\Male.cs",
-              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\BL\\Male.cs",
-              "RelativeToolTip": "MatchmakingPlatform\\BL\\Male.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T13:22:08.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MatchmakingPlatform\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MatchmakingPlatform\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAcwBQAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:49:09.389Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -216,97 +129,81 @@
               "RelativeDocumentMoniker": "MatchmakingPlatform\\Forms\\FemaleProfile.xaml.cs",
               "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\FemaleProfile.xaml.cs",
               "RelativeToolTip": "MatchmakingPlatform\\Forms\\FemaleProfile.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAkwCsBAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T13:49:09.437Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Female.cs",
-              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\BL\\Female.cs",
-              "RelativeDocumentMoniker": "MatchmakingPlatform\\BL\\Female.cs",
-              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\BL\\Female.cs",
-              "RelativeToolTip": "MatchmakingPlatform\\BL\\Female.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBIAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T13:22:16.567Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MaleDL.cs",
-              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\DL\\MaleDL.cs",
-              "RelativeDocumentMoniker": "MatchmakingPlatform\\DL\\MaleDL.cs",
-              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\DL\\MaleDL.cs",
-              "RelativeToolTip": "MatchmakingPlatform\\DL\\MaleDL.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAYwAsAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T13:53:47.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FemaleDL.cs",
-              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\DL\\FemaleDL.cs",
-              "RelativeDocumentMoniker": "MatchmakingPlatform\\DL\\FemaleDL.cs",
-              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\DL\\FemaleDL.cs",
-              "RelativeToolTip": "MatchmakingPlatform\\DL\\FemaleDL.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAA1wCcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T13:53:56.004Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Prefrences.cs",
-              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\BL\\Prefrences.cs",
-              "RelativeDocumentMoniker": "MatchmakingPlatform\\BL\\Prefrences.cs",
-              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\BL\\Prefrences.cs",
-              "RelativeToolTip": "MatchmakingPlatform\\BL\\Prefrences.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:38:44.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\BL\\UserRegistration.cs",
-              "RelativeDocumentMoniker": "MatchmakingPlatform\\BL\\UserRegistration.cs",
-              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\BL\\UserRegistration.cs",
-              "RelativeToolTip": "MatchmakingPlatform\\BL\\UserRegistration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:49:09.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 0,
               "Title": "MaleProfile.xaml.cs",
               "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\MaleProfile.xaml.cs",
               "RelativeDocumentMoniker": "MatchmakingPlatform\\Forms\\MaleProfile.xaml.cs",
               "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\MaleProfile.xaml.cs",
               "RelativeToolTip": "MatchmakingPlatform\\Forms\\MaleProfile.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAkwEUBAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T13:09:29.649Z"
+              "WhenOpened": "2024-12-08T13:09:29.649Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MaleProfile.xaml",
-              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\MaleProfile.xaml",
-              "RelativeDocumentMoniker": "MatchmakingPlatform\\Forms\\MaleProfile.xaml",
-              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\MaleProfile.xaml",
-              "RelativeToolTip": "MatchmakingPlatform\\Forms\\MaleProfile.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-08T12:10:39.809Z"
+              "DocumentIndex": 1,
+              "Title": "Male.cs",
+              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\BL\\Male.cs",
+              "RelativeDocumentMoniker": "MatchmakingPlatform\\BL\\Male.cs",
+              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\BL\\Male.cs",
+              "RelativeToolTip": "MatchmakingPlatform\\BL\\Male.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T13:22:08.997Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 8,
+              "Title": "FemaleDL.cs",
+              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\DL\\FemaleDL.cs",
+              "RelativeDocumentMoniker": "MatchmakingPlatform\\DL\\FemaleDL.cs",
+              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\DL\\FemaleDL.cs",
+              "RelativeToolTip": "MatchmakingPlatform\\DL\\FemaleDL.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwCcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T13:53:56.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignIn.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\SignIn.xaml.cs",
+              "RelativeDocumentMoniker": "MatchmakingPlatform\\Forms\\SignIn.xaml.cs",
+              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\SignIn.xaml.cs",
+              "RelativeToolTip": "MatchmakingPlatform\\Forms\\SignIn.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAG4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T13:49:09.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MaleDL.cs",
+              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\DL\\MaleDL.cs",
+              "RelativeDocumentMoniker": "MatchmakingPlatform\\DL\\MaleDL.cs",
+              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\DL\\MaleDL.cs",
+              "RelativeToolTip": "MatchmakingPlatform\\DL\\MaleDL.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T13:53:47.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FemaleProfile.xaml",
               "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\FemaleProfile.xaml",
               "RelativeDocumentMoniker": "MatchmakingPlatform\\Forms\\FemaleProfile.xaml",
@@ -318,7 +215,104 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Female.cs",
+              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\BL\\Female.cs",
+              "RelativeDocumentMoniker": "MatchmakingPlatform\\BL\\Female.cs",
+              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\BL\\Female.cs",
+              "RelativeToolTip": "MatchmakingPlatform\\BL\\Female.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwBUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T13:22:16.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\BL\\UserRegistration.cs",
+              "RelativeDocumentMoniker": "MatchmakingPlatform\\BL\\UserRegistration.cs",
+              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\BL\\UserRegistration.cs",
+              "RelativeToolTip": "MatchmakingPlatform\\BL\\UserRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T13:49:09.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomMessageBox.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Extras\\CustomMessageBox.xaml.cs",
+              "RelativeDocumentMoniker": "MatchmakingPlatform\\Extras\\CustomMessageBox.xaml.cs",
+              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Extras\\CustomMessageBox.xaml.cs",
+              "RelativeToolTip": "MatchmakingPlatform\\Extras\\CustomMessageBox.xaml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA8wBQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T13:50:59.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MatchmakingPlatform\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MatchmakingPlatform\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAuwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T13:49:09.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomMessageBox.xaml",
+              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Extras\\CustomMessageBox.xaml",
+              "RelativeDocumentMoniker": "MatchmakingPlatform\\Extras\\CustomMessageBox.xaml",
+              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Extras\\CustomMessageBox.xaml",
+              "RelativeToolTip": "MatchmakingPlatform\\Extras\\CustomMessageBox.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-07T13:50:00.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\App.xaml",
+              "RelativeDocumentMoniker": "MatchmakingPlatform\\App.xaml",
+              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\App.xaml",
+              "RelativeToolTip": "MatchmakingPlatform\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T13:05:35.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "SignIn.xaml",
+              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\SignIn.xaml",
+              "RelativeDocumentMoniker": "MatchmakingPlatform\\Forms\\SignIn.xaml",
+              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\SignIn.xaml",
+              "RelativeToolTip": "MatchmakingPlatform\\Forms\\SignIn.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-07T13:49:09.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Register.xaml",
+              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\Register.xaml",
+              "RelativeDocumentMoniker": "MatchmakingPlatform\\Forms\\Register.xaml",
+              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\Register.xaml",
+              "RelativeToolTip": "MatchmakingPlatform\\Forms\\Register.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-07T13:49:09.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Validations.cs",
               "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Validations.cs",
               "RelativeDocumentMoniker": "MatchmakingPlatform\\Validations.cs",
@@ -330,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "ResourcePart.cs",
               "DocumentMoniker": "C:\\Users\\musno\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
@@ -342,18 +336,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CustomMessageBox.xaml",
-              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Extras\\CustomMessageBox.xaml",
-              "RelativeDocumentMoniker": "MatchmakingPlatform\\Extras\\CustomMessageBox.xaml",
-              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Extras\\CustomMessageBox.xaml",
-              "RelativeToolTip": "MatchmakingPlatform\\Extras\\CustomMessageBox.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-07T13:50:00.669Z"
+              "DocumentIndex": 15,
+              "Title": "UserRegistrationDL.cs",
+              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\DL\\UserRegistrationDL.cs",
+              "RelativeDocumentMoniker": "MatchmakingPlatform\\DL\\UserRegistrationDL.cs",
+              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\DL\\UserRegistrationDL.cs",
+              "RelativeToolTip": "MatchmakingPlatform\\DL\\UserRegistrationDL.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwA0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T13:49:09.413Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 17,
+              "Title": "Prefrences.cs",
+              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\BL\\Prefrences.cs",
+              "RelativeDocumentMoniker": "MatchmakingPlatform\\BL\\Prefrences.cs",
+              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\BL\\Prefrences.cs",
+              "RelativeToolTip": "MatchmakingPlatform\\BL\\Prefrences.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:38:44.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MatchmakingPlatform\\MainWindow.xaml",
@@ -365,18 +372,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "CustomMessageBox.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Extras\\CustomMessageBox.xaml.cs",
-              "RelativeDocumentMoniker": "MatchmakingPlatform\\Extras\\CustomMessageBox.xaml.cs",
-              "ToolTip": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Extras\\CustomMessageBox.xaml.cs",
-              "RelativeToolTip": "MatchmakingPlatform\\Extras\\CustomMessageBox.xaml.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAwwBUAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:50:59.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
               "Title": "MatchmakingPlatform.csproj",
               "DocumentMoniker": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\MatchmakingPlatform.csproj",
               "RelativeDocumentMoniker": "MatchmakingPlatform\\MatchmakingPlatform.csproj",
@@ -388,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "MaleSignup.xaml",
               "DocumentMoniker": "C:\\Users\\PMLS\\Desktop\\Final Project\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\MaleSignup.xaml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\PMLS\\Desktop\\Final Project\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\MaleSignup.xaml",
@@ -399,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "FemaleSignUp.xaml",
               "DocumentMoniker": "C:\\Users\\PMLS\\Desktop\\Final Project\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\FemaleSignUp.xaml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\PMLS\\Desktop\\Final Project\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\FemaleSignUp.xaml",
@@ -410,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "FemaleSignUp.xaml.cs",
               "DocumentMoniker": "C:\\Users\\PMLS\\Desktop\\Final Project\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\FemaleSignUp.xaml.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\PMLS\\Desktop\\Final Project\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Forms\\FemaleSignUp.xaml.cs",

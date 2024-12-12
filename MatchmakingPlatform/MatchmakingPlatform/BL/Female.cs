@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
+using System.Windows.Media.Imaging;
 
 namespace MatchmakingPlatform.BL
 {
-    class Female:UserRegistration
+    public class Female:UserRegistration
     {
         public string firstName {  get; set; }
         public string lastName { get; set; }
@@ -16,7 +17,7 @@ namespace MatchmakingPlatform.BL
         public float height { get; set; }
         public string status { get; set; }
         public string education { get; set; }
-        public Image Image { get; set; }
+        public BitmapImage Image { get; set; }
 
         public Female(string username, string password, string email, string phoneNumber, DateTime dateOfBirth, string gender): base(username, password, email, phoneNumber, dateOfBirth, gender) { 
 

@@ -13,7 +13,15 @@ namespace MatchmakingPlatform.BL
         {
             // Create an instance of the Register window
             Register registerWindow = new Register();
-            //Forms.FemaleProfile registerWindow = new Forms.FemaleProfile();
+            //    Female female = new Female(
+            //    username: "john_doe",
+            //    password: "password123",
+            //    email: "john.doe@example.com",
+            //    phoneNumber: "123-456-7890",
+            //    dateOfBirth: new DateTime(1990, 5, 1),
+            //    gender: "Female"
+            //);
+            //Forms.FemaleProfile registerWindow = new Forms.FemaleProfile(female);
             //Forms.MaleProfile registerWindow = new Forms.MaleProfile();
             // Show the Register window
             registerWindow.Show();

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MatchmakingPlatform.BL
 {
-    class UserRegistration
+    public class UserRegistration
     {
         public string Username { get; set; }
         public string Password { get; set; }
