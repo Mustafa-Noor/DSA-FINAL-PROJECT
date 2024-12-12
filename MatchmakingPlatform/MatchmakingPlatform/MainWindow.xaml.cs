@@ -12,14 +12,18 @@ namespace MatchmakingPlatform.BL
         private void OpenRegisterPage_Click(object sender, RoutedEventArgs e)
         {
             // Create an instance of the Register window
-            //Register registerWindow = new Register();
+            Register registerWindow = new Register();
             //Forms.FemaleProfile registerWindow = new Forms.FemaleProfile();
-            Forms.MaleProfile registerWindow = new Forms.MaleProfile();
+            //Forms.MaleProfile registerWindow = new Forms.MaleProfile();
             // Show the Register window
             registerWindow.Show();
         }
         private void SignIn_Click(object sender, RoutedEventArgs e){
+            // Create an instance of the SignIn window
+            SignIn signInWindow = new SignIn();
+            signInWindow.Show(); // Show the SignIn window
 
+            this.Close(); // Close the Register window
         }
     }
 }

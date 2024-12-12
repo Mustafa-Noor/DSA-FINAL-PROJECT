@@ -59,30 +59,66 @@ namespace MatchmakingPlatform.BL
             }
             else
             {
-                UserRegistration user = new UserRegistration(
-                NameTextBox.Text,
-                PasswordTextBox.Text,
-                EmailTextBox.Text,
-                PhoneNumberTextBox.Text,
-                DobDatePicker.SelectedDate.Value,
-                GenderComboBox.Text
-                );
-                if (UserRegistrationDL.AddUser(user))
+
+                if(GenderComboBox.Text == "Male")
                 {
-                    MessageBox.Show("Registration Successful");
-                    NameTextBox.Text = string.Empty;
-                    PasswordTextBox.Text = string.Empty;
-                    EmailTextBox.Text = string.Empty;
-                    PhoneNumberTextBox.Text = string.Empty;
-                    DobDatePicker.SelectedDate = null;
-                    GenderComboBox.SelectedItem = null;
-                    ErrorMessageTextBlock.Visibility = Visibility.Collapsed;
+                    Male user = new Male(
+                       NameTextBox.Text,
+                       PasswordTextBox.Text,
+                       EmailTextBox.Text,
+                       PhoneNumberTextBox.Text,
+                       DobDatePicker.SelectedDate.Value,
+                       GenderComboBox.Text);
+
+
+                    if (MaleDL.AddUser(user))
+                    {
+                        MessageBox.Show("Registration Successful");
+                        NameTextBox.Text = string.Empty;
+                        PasswordTextBox.Text = string.Empty;
+                        EmailTextBox.Text = string.Empty;
+                        PhoneNumberTextBox.Text = string.Empty;
+                        DobDatePicker.SelectedDate = null;
+                        GenderComboBox.SelectedItem = null;
+                        ErrorMessageTextBlock.Visibility = Visibility.Collapsed;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Username already exist!");
+
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Username already exist!");
+                    Female user = new Female(
+                       NameTextBox.Text,
+                       PasswordTextBox.Text,
+                       EmailTextBox.Text,
+                       PhoneNumberTextBox.Text,
+                       DobDatePicker.SelectedDate.Value,
+                       GenderComboBox.Text);
 
+
+                    if (FemaleDL.AddUser(user))
+                    {
+                        MessageBox.Show("Registration Successful");
+                        NameTextBox.Text = string.Empty;
+                        PasswordTextBox.Text = string.Empty;
+                        EmailTextBox.Text = string.Empty;
+                        PhoneNumberTextBox.Text = string.Empty;
+                        DobDatePicker.SelectedDate = null;
+                        GenderComboBox.SelectedItem = null;
+                        ErrorMessageTextBlock.Visibility = Visibility.Collapsed;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Username already exist!");
+
+                    }
                 }
+
+
+
             }
         }
 
