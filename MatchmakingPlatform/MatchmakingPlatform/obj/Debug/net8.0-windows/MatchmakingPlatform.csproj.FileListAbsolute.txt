@@ -156,7 +156,6 @@ E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\Matchmaki
 E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\SignIn.g.cs
 E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\Register.baml
 E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\SignIn.baml
-C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Extras\CustomMessageBox.g.cs
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\Register.g.cs
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\SignIn.g.cs
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\bin\Debug\net8.0-windows\Images\c1.jpg
@@ -169,8 +168,15 @@ C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\Matchm
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\bin\Debug\net8.0-windows\Images\c7.jpg
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\bin\Debug\net8.0-windows\Images\c8.jpg
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\bin\Debug\net8.0-windows\Images\c9.jpg
-C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Extras\CustomMessageBox.baml
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\Register.baml
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\SignIn.baml
 E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\PrefrenceWindow.baml
 E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\PrefrenceWindow.g.cs
+C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\PrefrenceWindow.baml
+C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\PrefrenceWindow.g.cs
+C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Extras\MalePreferenceBox.g.cs
+C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Extras\MalePreferenceBox.baml
+C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\PreferenceWindowFemale.baml
+C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\PreferenceWindowFemale.g.cs
+C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Extras\FemalePreferenceBox.g.cs
+C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Extras\FemalePreferenceBox.baml

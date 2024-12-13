@@ -4,6 +4,9 @@
              xmlns:local="clr-namespace:MatchmakingPlatform"
              StartupUri="mainWindow.xaml">
     <Application.Resources>
-         
+        
     </Application.Resources>
+    
+    
+    
 </Application>

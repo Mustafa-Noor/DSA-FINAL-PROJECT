@@ -279,59 +279,59 @@ namespace MatchmakingPlatform.Forms
         // Preferences Button
         private void PreferenceButton_Click(object sender, RoutedEventArgs e)
         {
-            var customMessageBox = new CustomMessageBox();
-            if (customMessageBox.ShowDialog() == true)
-            {
-                string selectedOption1 = customMessageBox.SelectedOption1;
-                string selectedOption2 = customMessageBox.SelectedOption2;
+        //    var customMessageBox = new CustomMessageBox();
+        //    if (customMessageBox.ShowDialog() == true)
+        //    {
+        //        string selectedOption1 = customMessageBox.prefrence;
+        //        string selectedOption2 = customMessageBox.condition;
 
-                if (!preferences.Contains(selectedOption1))
-                {
-                    MessageBox.Show($"You selected:\nOption 1: {selectedOption1}\nOption 2: {selectedOption2}",
-                    "Selection", MessageBoxButton.OK, MessageBoxImage.Information);
-                    preferences.Add(selectedOption1);
-                }
-                else
-                {
-                    MessageBox.Show("This particular preference already exists. Consider removing it to edit this.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
-                }
-            }
+        //        if (!preferences.Contains(selectedOption1))
+        //        {
+        //            MessageBox.Show($"You selected:\nOption 1: {selectedOption1}\nOption 2: {selectedOption2}",
+        //            "Selection", MessageBoxButton.OK, MessageBoxImage.Information);
+        //            preferences.Add(selectedOption1);
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show("This particular preference already exists. Consider removing it to edit this.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+        //        }
+            //}
         }
 
         // View Preferences Button
         private void ViewPreferencesButton_Click(object sender, RoutedEventArgs e)
         {
-            if (preferences.Count > 0)
-            {
-                string preferencesText = string.Join("\n", preferences);
-                MessageBox.Show($"Current Preferences:\n{preferencesText}", "Preferences", MessageBoxButton.OK, MessageBoxImage.Information);
-            }
-            else
-            {
-                MessageBox.Show("No preferences added yet.", "No Preferences", MessageBoxButton.OK, MessageBoxImage.Information);
-            }
+        //    if (preferences.Count > 0)
+        //    {
+        //        string preferencesText = string.Join("\n", preferences);
+        //        MessageBox.Show($"Current Preferences:\n{preferencesText}", "Preferences", MessageBoxButton.OK, MessageBoxImage.Information);
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show("No preferences added yet.", "No Preferences", MessageBoxButton.OK, MessageBoxImage.Information);
+        //    }
         }
 
         // Preferences Button for adding preferences
         private void prefrenceButton_Click(object sender, RoutedEventArgs e)
         {
-            var customMessageBox = new CustomMessageBox();
-            if (customMessageBox.ShowDialog() == true)
-            {
-                string selectedOption1 = customMessageBox.SelectedOption1;
-                string selectedOption2 = customMessageBox.SelectedOption2;
+        //    var customMessageBox = new CustomMessageBox();
+        //    if (customMessageBox.ShowDialog() == true)
+        //    {
+        //        string selectedOption1 = customMessageBox.prefrence;
+        //        string selectedOption2 = customMessageBox.condition;
 
-                if (!preferences.Contains(selectedOption1))
-                {
-                    MessageBox.Show($"You selected:\nOption 1: {selectedOption1}\nOption 2: {selectedOption2}",
-                    "Selection", MessageBoxButton.OK, MessageBoxImage.Information);
-                    preferences.Add(selectedOption1);
-                }
-                else
-                {
-                    MessageBox.Show("This particular preference already exists. Consider removing it to edit this.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
-                }
-            }
+        //        if (!preferences.Contains(selectedOption1))
+        //        {
+        //            MessageBox.Show($"You selected:\nOption 1: {selectedOption1}\nOption 2: {selectedOption2}",
+        //            "Selection", MessageBoxButton.OK, MessageBoxImage.Information);
+        //            preferences.Add(selectedOption1);
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show("This particular preference already exists. Consider removing it to edit this.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+        //        }
+            //}
         }
     }
 }

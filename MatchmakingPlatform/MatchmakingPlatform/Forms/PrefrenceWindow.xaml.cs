@@ -1,4 +1,5 @@
-﻿using MatchmakingPlatform.Extras;
+﻿using MatchmakingPlatform.BL;
+using MatchmakingPlatform.Extras;
 using System.Collections.ObjectModel;
 using System.Windows;
 
@@ -7,17 +8,13 @@ namespace MatchmakingPlatform.Forms
     public partial class PrefrenceWindow : Window
     {
         // ObservableCollection to store preferences
-     
-        public PrefrenceWindow()
+
+        Male male;
+        public PrefrenceWindow(Male male)
         {
             InitializeComponent();
-            
-        }
-
-        // Add Preference Button Click
-        private void AddPreferenceButton_Click(object sender, RoutedEventArgs e)
-        {
-            
+            this.male = male;
+            this.DataContext = this.male;
         }
 
         // Clear Preferences Button Click
@@ -25,11 +22,23 @@ namespace MatchmakingPlatform.Forms
         {
             
         }
-
+        
         // Find Pairs Button Click
         private void FindPairsButton_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Find pairs functionality not implemented yet!");
+        }
+
+
+        private void AddPreferenceButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            MalePreferenceBox customMessageBox = new MalePreferenceBox(male);
+            customMessageBox.ShowDialog();
+        }
+
+        private void ClearPreferencesButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            male.clearPreferences();
         }
     }
 

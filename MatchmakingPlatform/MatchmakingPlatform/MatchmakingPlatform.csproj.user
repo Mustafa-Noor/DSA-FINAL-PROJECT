@@ -7,7 +7,10 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Extras\CustomMessageBox.xaml.cs">
+    <Compile Update="Extras\FemalePreferenceBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Extras\MalePreferenceBox.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Forms\FemaleProfile.xaml.cs">
@@ -16,18 +19,27 @@
     <Compile Update="Forms\MaleProfile.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Forms\PreferenceWindowFemale.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Forms\PrefrenceWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Extras\CustomMessageBox.xaml">
+    <Page Update="Extras\FemalePreferenceBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Extras\MalePreferenceBox.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Forms\FemaleProfile.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Forms\MaleProfile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forms\PreferenceWindowFemale.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Forms\PrefrenceWindow.xaml">

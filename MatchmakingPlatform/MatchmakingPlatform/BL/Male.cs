@@ -1,4 +1,6 @@
-﻿using System.Windows.Media.Imaging;
+﻿using System.Collections.ObjectModel;
+using System.Diagnostics.Metrics;
+using System.Windows.Media.Imaging;
 namespace MatchmakingPlatform.BL
 {
     public class Male
@@ -19,6 +21,19 @@ namespace MatchmakingPlatform.BL
         public DateTime DateOfBirth { get; set; }
         public string Gender { get; set;}
 
+        public ObservableCollection<Preference> Preferences { get; set; }
+
+        public PreferenceQueue Queue { get; set; }
+
+
+
+        public Male()
+        {
+            Preferences = new ObservableCollection<Preference>();
+            Queue = new PreferenceQueue();
+        }
+
+
         public Male(string UserName, string Password, string Email, string ContactNumber, DateTime DateOfBirth, string Gender){
             this.UserName = UserName;
             this.FirstName = UserName;
@@ -27,6 +42,8 @@ namespace MatchmakingPlatform.BL
             this.ContactNumber  = ContactNumber;
             this.DateOfBirth = DateOfBirth;
             this.Gender = Gender;
+            Preferences = new ObservableCollection<Preference>();
+            Queue = new PreferenceQueue();
         }
        public bool CheckPassword(string password)
        {
@@ -36,5 +53,33 @@ namespace MatchmakingPlatform.BL
             }
             return false;
         }
+
+        public bool DoesPreferenceExist(string preferenceName)
+        {
+            
+            if (Preferences == null || Preferences.Count == 0)
+            {
+                return false;
+            }
+            
+            for (int i = 0; i < Preferences.Count; i++)
+            {
+                if (Preferences[i].Pref == preferenceName)
+                {
+                    return true; 
+                }
+            }
+
+            return false; 
+        }
+
+
+        public void clearPreferences()
+        {
+            Preferences.Clear();
+            Queue.Clear();
+        }
+
+        
     }
 }
