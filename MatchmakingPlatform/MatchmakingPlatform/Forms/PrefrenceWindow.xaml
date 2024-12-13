@@ -34,7 +34,7 @@
                     </Button.Background>
                 </Button>
                 <Button Content="Add Preference" Name="AddPreferenceButton" Margin="10" Height="50" 
-                        Foreground="White" FontWeight="Bold" FontSize="14" BorderThickness="0">
+                        Foreground="White" FontWeight="Bold" FontSize="14" BorderThickness="0" Click="AddPreferenceButton_Click_1">
                     <Button.Background>
                         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                             <GradientStop Color="#4CAF50" Offset="0" />
@@ -43,7 +43,7 @@
                     </Button.Background>
                 </Button>
                 <Button Content="Clear Preferences" Name="ClearPreferencesButton" Margin="10" Height="50" 
-                        Foreground="White" FontWeight="Bold" FontSize="14" BorderThickness="0">
+                        Foreground="White" FontWeight="Bold" FontSize="14" BorderThickness="0" Click="ClearPreferencesButton_Click_1">
                     <Button.Background>
                         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                             <GradientStop Color="#E53935" Offset="0" />
@@ -87,16 +87,20 @@
 
                 <!-- Data Rows -->
                 <ListView Grid.Row="1" Name="PreferencesListView" Margin="10" BorderBrush="#B0BEC5" BorderThickness="1" 
-                          Background="#ECEFF1" Foreground="#37474F" FontSize="12">
+                          Background="#ECEFF1" 
+                          Foreground="#37474F" 
+                          FontSize="12"
+                          ItemsSource="{Binding Preferences}">
+                    
                     <ListView.View>
                         <GridView>
-                            <GridViewColumn Header="Preference" Width="150" />
-                            <GridViewColumn Header="Value" Width="150" />
-                            <GridViewColumn Header="Condition" Width="150" />
+                            <GridViewColumn Header = "Preference" Width="150" DisplayMemberBinding="{Binding Pref}" />
+                            <GridViewColumn Header = "Value" Width="150" DisplayMemberBinding="{Binding Value}" />
+                            <GridViewColumn Header = "Condition" Width="150" DisplayMemberBinding="{Binding Condition}" />
                         </GridView>
                     </ListView.View>
                 </ListView>
             </Grid>
         </Border>
     </Grid>
-</Window>
+</Window> 

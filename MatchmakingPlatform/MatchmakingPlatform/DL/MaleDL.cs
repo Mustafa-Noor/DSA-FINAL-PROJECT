@@ -2,14 +2,13 @@
 using System.IO;
 using System.Windows;
 using MatchmakingPlatform.BL;
-using System.Security.Cryptography;
 
 namespace MatchmakingPlatform.DL{
     class MaleDL{
 
         static Dictionary<string, Male> Males = new Dictionary<string, Male>();
 
-
+        static string filePath = "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Data\\MaleData.json";
         static string GetJsonFilePath(){
             string relativePath = "Data\\MaleData.json";
         
@@ -19,19 +18,14 @@ namespace MatchmakingPlatform.DL{
             return absolutePath;
         }
 
-
         static void SavetoFile(){
             string json = JsonSerializer.Serialize(Males, new JsonSerializerOptions{
                 WriteIndented = true
             });
-            string filePath = "E:\\Studies\\3rd Samester\\DSAFinal\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Data\\MaleData.json";//GetJsonFilePath();
             File.WriteAllText(filePath, json);
         }
 
-
-
         public static void LoadDAta(){
-            string filePath = "E:\\Studies\\3rd Samester\\DSAFinal\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Data\\MaleData.json";
             if(File.Exists(filePath))
             {
                 string loadedJson = File.ReadAllText(filePath);
@@ -45,9 +39,6 @@ namespace MatchmakingPlatform.DL{
                 Console.WriteLine("File not found.");
             }
         }
-
-
-
 
         static public bool AddUser(Male user)
         {

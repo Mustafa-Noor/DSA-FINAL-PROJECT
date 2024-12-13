@@ -12,20 +12,19 @@ namespace MatchmakingPlatform.DL
     class FemaleDL
     {
         static Dictionary<string, Female> Females = new Dictionary<string, Female>();
-
+        static string filePath = "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Data\\MaleData.json";
 
         static void SavetoFile(){
             string json = JsonSerializer.Serialize(Females, new JsonSerializerOptions{
                 WriteIndented = true
             });
-            string filePath = "E:\\Studies\\3rd Samester\\DSAFinal\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Data\\FemaleData.json";//GetJsonFilePath();
+            //string filePath = GetJsonFilePath();
             File.WriteAllText(filePath, json);
         }
 
 
 
         public static void LoadDAta(){
-            string filePath = "E:\\Studies\\3rd Samester\\DSAFinal\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Data\\FemaleData.json";
             if(File.Exists(filePath))
             {
                 string loadedJson = File.ReadAllText(filePath);

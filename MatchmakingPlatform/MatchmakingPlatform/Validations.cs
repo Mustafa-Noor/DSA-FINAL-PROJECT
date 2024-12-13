@@ -81,6 +81,63 @@ namespace MatchmakingPlatform
             return age >= 18;
         }
 
+        public static bool ValidateAge(string ageText)
+        {
+            if (int.TryParse(ageText, out int age) && age > 18)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+
+        public static bool ValidateHeight(string heightText)
+        {
+            if (int.TryParse(heightText, out int height) && height >= 100 && height <= 200)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        public static bool ValidateIncome(string incomeText)
+        {
+            // Assume proper income is a positive integer for this example
+            if (int.TryParse(incomeText, out int income) && income > 0)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+
+        public static bool ValidateWithCondition(string valueText, string condition, int minValue, int maxValue)
+        {
+            if (!int.TryParse(valueText, out int value))
+            {
+                return false; // Invalid integer input
+            }
+
+            switch (condition)
+            {
+                case "Less Than":
+                    return value > minValue && value < maxValue;
+
+                case "Equal to":
+                    return value >= minValue && value <= maxValue;
+
+                case "Greater than":
+                    return value > minValue && value<maxValue;
+
+                default:
+                    return false; // Invalid condition
+            }
+        }
+
+
 
 
     }
