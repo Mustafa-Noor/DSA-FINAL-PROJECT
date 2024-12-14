@@ -2,6 +2,11 @@
 using System.Windows;
 using System.Windows.Media.Imaging;
 using MatchmakingPlatform.BL;
+using MatchmakingPlatform.DL;
+using System.Windows.Controls;
+using System.Drawing;
+using MatchmakingPlatform.Utils;
+using System.Security.Cryptography;
 
 namespace MatchmakingPlatform.Forms
 {
@@ -56,16 +61,37 @@ namespace MatchmakingPlatform.Forms
                 EducationComboBox.SelectedItem = maleProfile.Education;
                 SalaryTextBox.Text = maleProfile.Salary.ToString();
 
-                if (maleProfile.Image != null)
+                try
                 {
-                    try
+                    if (!string.IsNullOrEmpty(maleProfile.Image) && System.IO.File.Exists(@$"{Utility.FilePath}\{maleProfile.Image}"))
                     {
-                        ProfileImage.Source = maleProfile.Image; //Assign directly
+                        // Load the image from the file path
+                        var bitmap = new BitmapImage();
+                        bitmap.BeginInit();
+                        bitmap.UriSource = new Uri(@$"{Utility.FilePath}\{maleProfile.Image}", UriKind.Absolute);
+                        bitmap.CacheOption = BitmapCacheOption.OnLoad;
+                        bitmap.EndInit();
+
+                        // Set the image source to the profile image control
+                        ProfileImage.Source = bitmap;
                     }
-                    catch
+                    else
                     {
-                        MessageBox.Show("Failed to load profile image.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                        // Load the image from the file path
+                        maleProfile.Image = @"Data\\Male Images\\MaleDefaultImage.jpg";
+                        var bitmap = new BitmapImage();
+                        bitmap.BeginInit();
+                        bitmap.UriSource = new Uri(@$"{Utility.FilePath}\Data\Male Images\MaleDefaultImage.jpg", UriKind.Absolute);
+                        bitmap.CacheOption = BitmapCacheOption.OnLoad;
+                        bitmap.EndInit();
+
+                        // Set the image source to the profile image control
+                        ProfileImage.Source = bitmap;
                     }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"An error occurred while loading the profile image: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
         }
@@ -92,17 +118,14 @@ namespace MatchmakingPlatform.Forms
             maleProfile.City = CityTextBox.Text;
             maleProfile.Profession = ProfessionTextBox.Text;
             maleProfile.Height = float.Parse(HeightTextBox.Text);
-            maleProfile.Education = EducationComboBox.SelectedItem.ToString();
+            maleProfile.Education = ((ComboBoxItem)EducationComboBox.SelectedItem)?.Content.ToString();
             maleProfile.Salary = float.Parse(SalaryTextBox.Text);
 
-            // Optionally, if you're handling the profile image:
-            if (ProfileImage.Source != null)
-            {
-                maleProfile.Image = (BitmapImage)ProfileImage.Source;
-            }
+            MaleDL.SavetoFile();
+            
 
+            MessageBox.Show("Profile information saved successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
 
-            // Disable fields after saving
             DisableFields();
             isEditing = false;
         }
@@ -155,7 +178,6 @@ namespace MatchmakingPlatform.Forms
 
         private void ResetFields()
         {
-            // Reset fields to default or previously saved values
             FirstNameTextBox.Text = ""; // Replace with the original value if available
             LastNameTextBox.Text = "";
             EmailTextBox.Text = "";
@@ -261,6 +283,7 @@ namespace MatchmakingPlatform.Forms
             {
                 try
                 {
+                    // Load the image into the UI
                     var bitmap = new BitmapImage();
                     bitmap.BeginInit();
                     bitmap.UriSource = new System.Uri(openFileDialog.FileName);
@@ -268,10 +291,33 @@ namespace MatchmakingPlatform.Forms
                     bitmap.EndInit();
 
                     ProfileImage.Source = bitmap;
+
+                    // Save the image to a folder
+                    string directoryPath = @$"{Utility.FilePath}\Data\Male Images";
+
+                    // Ensure the directory exists
+                    if (!System.IO.Directory.Exists(directoryPath))
+                    {
+                        System.IO.Directory.CreateDirectory(directoryPath);
+                    }
+
+                    // Create a unique file name for the user
+                    string fileName = $"{maleProfile.UserName}_ProfilePicture{System.IO.Path.GetExtension(openFileDialog.FileName)}";
+                    string savePath = System.IO.Path.Combine(directoryPath, fileName);
+                    string relativePath = System.IO.Path.Combine(@"\Data\ale Images", fileName);
+
+                    // Copy the file to the folder
+                    System.IO.File.Copy(openFileDialog.FileName, savePath, true);
+
+                    // Update the Image property with the file path
+                    maleProfile.Image = relativePath;
+                    MaleDL.SavetoFile();
+
+                    MessageBox.Show("Profile picture uploaded successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
-                catch
+                catch (Exception ex)
                 {
-                    MessageBox.Show("An error occurred while loading the image.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show($"An error occurred while saving the image: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
         }

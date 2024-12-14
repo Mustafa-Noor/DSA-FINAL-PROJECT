@@ -2,7 +2,9 @@
 using System.Windows;
 using System.Windows.Media.Imaging;
 using MatchmakingPlatform.BL;
-using MatchmakingPlatform.DL;   
+using MatchmakingPlatform.DL;
+using MatchmakingPlatform.Utils;
+using System.Runtime.InteropServices;
 
 namespace MatchmakingPlatform.Forms
 {
@@ -34,16 +36,34 @@ namespace MatchmakingPlatform.Forms
                 HeightTextBox.Text = currentFemale.height.ToString();
                 EducationComboBox.Text = currentFemale.education;
 
-                if(currentFemale.Image != null)
+                try
                 {
-                    try
+                    if (!string.IsNullOrEmpty(currentFemale.Image) && System.IO.File.Exists(@$"{Utils.Utility.FilePath}\{currentFemale.Image}"))
                     {
-                        ProfileImage.Source = currentFemale.Image;
+                        var bitmap = new BitmapImage();
+                        bitmap.BeginInit();
+                        bitmap.UriSource = new Uri(@$"{Utility.FilePath}\{currentFemale.Image}", UriKind.Absolute);
+                        bitmap.CacheOption = BitmapCacheOption.OnLoad;
+                        bitmap.EndInit();
+
+                        ProfileImage.Source = bitmap;
                     }
-                    catch
+                    else
                     {
-                        MessageBox.Show("Failed to load profile image.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                        currentFemale.Image = "Data\\Female Images\\FemaleDefaultImage.jpg";
+                        var bitmap = new BitmapImage();
+                        bitmap.BeginInit();
+                        bitmap.UriSource = new Uri(@$"{Utility.FilePath}\Data\Female Images\FemaleDefaultImage.jpg", UriKind.Absolute);
+                        bitmap.CacheOption = BitmapCacheOption.OnLoad;
+                        bitmap.EndInit();
+
+                        // Set the image source to the profile image control
+                        ProfileImage.Source = bitmap;
                     }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"An error occurred while loading the profile image: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
         }
@@ -89,6 +109,9 @@ namespace MatchmakingPlatform.Forms
             currentFemale.status = StatusComboBox.Text;
             currentFemale.height = float.Parse(HeightTextBox.Text);
             currentFemale.education = EducationComboBox.Text;
+            
+
+            FemaleDL.SavetoFile();
 
             // Logic to save the user information (e.g., save to database)
             MessageBox.Show("Profile information saved successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
@@ -251,6 +274,35 @@ namespace MatchmakingPlatform.Forms
         }
 
         // Upload Photo Button
+        //private void UploadPhotoButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    //var openFileDialog = new Microsoft.Win32.OpenFileDialog
+        //    //{
+        //    //    Filter = "Image Files (*.jpg; *.jpeg; *.png)|*.jpg;*.jpeg;*.png",
+        //    //    Title = "Select Profile Picture"
+        //    //};
+
+        //    //if (openFileDialog.ShowDialog() == true)
+        //    //{
+        //    //    try
+        //    //    {
+        //    //        var bitmap = new BitmapImage();
+        //    //        bitmap.BeginInit();
+        //    //        bitmap.UriSource = new System.Uri(openFileDialog.FileName);
+        //    //        bitmap.CacheOption = BitmapCacheOption.OnLoad;
+        //    //        bitmap.EndInit();
+
+        //    //        ProfileImage.Source = bitmap;
+        //    //    }
+        //    //    catch
+        //    //    {
+        //    //        MessageBox.Show("An error occurred while loading the image.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+        //    //    }
+        //    //}
+
+
+        //}
+
         private void UploadPhotoButton_Click(object sender, RoutedEventArgs e)
         {
             var openFileDialog = new Microsoft.Win32.OpenFileDialog
@@ -263,6 +315,7 @@ namespace MatchmakingPlatform.Forms
             {
                 try
                 {
+                    // Load the image into the UI
                     var bitmap = new BitmapImage();
                     bitmap.BeginInit();
                     bitmap.UriSource = new System.Uri(openFileDialog.FileName);
@@ -270,12 +323,36 @@ namespace MatchmakingPlatform.Forms
                     bitmap.EndInit();
 
                     ProfileImage.Source = bitmap;
+
+                    // Save the image to a folder
+                    string directoryPath = @$"{Utility.FilePath}\Data\Female Images";
+
+                    // Ensure the directory exists
+                    if (!System.IO.Directory.Exists(directoryPath))
+                    {
+                        System.IO.Directory.CreateDirectory(directoryPath);
+                    }
+
+                    // Create a unique file name for the user
+                    string fileName = $"{currentFemale.Username}_ProfilePicture{System.IO.Path.GetExtension(openFileDialog.FileName)}";
+                    string savePath = System.IO.Path.Combine(directoryPath, fileName);
+                    string relativePath = System.IO.Path.Combine(@"\Data\Female Images", fileName);
+
+                    // Copy the file to the folder
+                    System.IO.File.Copy(openFileDialog.FileName, savePath, true);
+
+                    // Update the Image property with the file path
+                    currentFemale.Image = relativePath;
+                    FemaleDL.SavetoFile();
+
+                    MessageBox.Show("Profile picture uploaded successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
-                catch
+                catch (Exception ex)
                 {
-                    MessageBox.Show("An error occurred while loading the image.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show($"An error occurred while saving the image: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
         }
+
     }
 }

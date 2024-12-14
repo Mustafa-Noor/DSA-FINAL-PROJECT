@@ -1,0 +1,10 @@
+﻿<Window x:Class="MatchmakingPlatform.UserControls.Starter"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:MatchmakingPlatform"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid >
+        <StackPanel Name="MainGrid"/>
+        <!-- Controls will be added programmatically -->
+    </Grid>
+</Window>

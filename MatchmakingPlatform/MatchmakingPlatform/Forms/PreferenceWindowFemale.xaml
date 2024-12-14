@@ -34,7 +34,7 @@
                     </Button.Background>
                 </Button>
                 <Button Content="Add New Preference" Name="AddNewPreferenceButton" Margin="10" Height="50" 
-                        Foreground="White" FontWeight="Bold" FontSize="14" BorderThickness="0" Click="AddNewPreferenceButton_Click">
+                        Foreground="White" FontWeight="Bold" FontSize="14" BorderThickness="0" >
                     <Button.Background>
                         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                             <GradientStop Color="#FF80AB" Offset="0" />

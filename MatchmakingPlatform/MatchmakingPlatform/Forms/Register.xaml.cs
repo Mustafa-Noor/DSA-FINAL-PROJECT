@@ -3,8 +3,9 @@ using System.Windows;
 using MatchmakingPlatform.DL;
 using MatchmakingPlatform;
 using System.Runtime.ExceptionServices;
+using MatchmakingPlatform.BL;
 
-namespace MatchmakingPlatform.BL
+namespace MatchmakingPlatform.Forms
 {
     public partial class Register : Window
     {
