@@ -12,9 +12,9 @@ namespace MatchmakingPlatform.DL
     class FemaleDL
     {
         static Dictionary<string, Female> Females = new Dictionary<string, Female>();
-        static string filePath = "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Data\\MaleData.json";
+        static string filePath = "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\Data\\FemaleData.json";
 
-        static void SavetoFile(){
+        public static void SavetoFile(){
             string json = JsonSerializer.Serialize(Females, new JsonSerializerOptions{
                 WriteIndented = true
             });

@@ -18,13 +18,12 @@ namespace MatchmakingPlatform.BL
         public float height { get; set; }
         public string status { get; set; }
         public string education { get; set; }
-        public BitmapImage Image { get; set; }
+        public string Image { get; set; }
         public ObservableCollection<Preference> Preferences { get; set; }
 
         public PreferenceQueue Queue { get; set; }
 
         public Female(string username, string password, string email, string phoneNumber, DateTime dateOfBirth, string gender){ 
-            firstName = username;
             this.Username = username;
             this.Password = password;
             this.Email = email;

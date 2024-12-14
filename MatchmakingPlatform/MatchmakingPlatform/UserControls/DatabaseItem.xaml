@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="MatchmakingPlatform.UserControls.DatabaseItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="200" d:DesignWidth="200">
+    <Grid>
+        <!-- Background for layout -->
+        <Grid Background="Transparent" 
+              MouseEnter="Grid_MouseEnter" 
+              MouseLeave="Grid_MouseLeave">
+
+            <!-- Ellipse with an image as its fill -->
+            <Ellipse Width="100" Height="100" Stroke="Gray" StrokeThickness="2" x:Name="PictureEllipse">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\Data\Male Images\MaleDefaultImage.jpg" 
+                                Stretch="Fill"
+                                />
+                </Ellipse.Fill>
+            </Ellipse>
+
+            <!-- Button displayed on MouseEnter -->
+            <Button Content="Click Me" 
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center" 
+                    Visibility="Collapsed"
+                    Name="ActionButton"/>
+        </Grid>
+    </Grid>
+</UserControl>
+
+
+    

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\App.xaml
-9-1571025558
+151558169960
 
-21634088787
-198915248976
-Extras\FemalePreferenceBox.xaml;Extras\MalePreferenceBox.xaml;Forms\FemaleProfile.xaml;Forms\MaleProfile.xaml;Forms\PreferenceWindowFemale.xaml;Forms\PrefrenceWindow.xaml;Forms\Register.xaml;Forms\SignIn.xaml;MainWindow.xaml;
+32-207686361
+200-445746652
+Extras\FemalePreferenceBox.xaml;Extras\MalePreferenceBox.xaml;Forms\FemaleProfile.xaml;Forms\FemaleSignUp.xaml;Forms\MaleProfile.xaml;Forms\MaleSignup.xaml;Forms\Matches.xaml;Forms\PreferenceWindowFemale.xaml;Forms\PrefrenceWindow.xaml;Forms\Register.xaml;Forms\SignIn.xaml;Forms\WindowPreferenceFemale.xaml;MainWindow.xaml;UserControls\DatabaseItem.xaml;UserControls\Starter.xaml;
 
 True
 

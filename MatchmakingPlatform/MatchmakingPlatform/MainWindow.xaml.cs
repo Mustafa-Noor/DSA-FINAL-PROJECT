@@ -12,7 +12,7 @@ namespace MatchmakingPlatform.BL
             MaleDL.LoadDAta();
             FemaleDL.LoadDAta();
         }
-        
+
         private void OpenRegisterPage_Click(object sender, RoutedEventArgs e)
         {
             Register registerWindow = new Register();
@@ -21,16 +21,10 @@ namespace MatchmakingPlatform.BL
         private void SignIn_Click(object sender, RoutedEventArgs e)
         {
             //Create an instance of the SignIn window
-            //SignIn signInWindow = new SignIn();
-            //signInWindow.Show();
-
-            //this.Close();
-
-            PreferenceWindowFemale preference = new PreferenceWindowFemale(new Female());
-            preference.Show();
+            SignIn signInWindow = new SignIn();
+            signInWindow.Show();
             this.Close();
 
         }
     }
-
-}
+} 

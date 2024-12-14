@@ -1,6 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.Diagnostics.Metrics;
 using System.Windows.Media.Imaging;
+using Microsoft.VisualBasic;
 namespace MatchmakingPlatform.BL
 {
     public class Male
@@ -17,9 +18,10 @@ namespace MatchmakingPlatform.BL
         public double Height { get; set;  }
         public string Education { get; set; }
         public double Salary { get; set; }
-        public BitmapImage Image { get; set; }
+        public string Image {  get; set;}
         public DateTime DateOfBirth { get; set; }
         public string Gender { get; set;}
+        public int Age {get; set; }
 
         public ObservableCollection<Preference> Preferences { get; set; }
 
@@ -36,7 +38,6 @@ namespace MatchmakingPlatform.BL
 
         public Male(string UserName, string Password, string Email, string ContactNumber, DateTime DateOfBirth, string Gender){
             this.UserName = UserName;
-            this.FirstName = UserName;
             this.Password = Password;
             this.Email = Email;
             this.ContactNumber  = ContactNumber;
@@ -44,6 +45,7 @@ namespace MatchmakingPlatform.BL
             this.Gender = Gender;
             Preferences = new ObservableCollection<Preference>();
             Queue = new PreferenceQueue();
+            Age = (DateAndTime.Now.Year-DateOfBirth.Year);
         }
        public bool CheckPassword(string password)
        {

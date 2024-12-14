@@ -27,9 +27,10 @@ namespace MatchmakingPlatform.Forms
             InitializeComponent();
             this.female = female;
             DataContext = this.female;
+
         }
 
-        private void AddNewPreferenceButton_Click(object sender, RoutedEventArgs e)
+        void AddPreferences_Click(object sender, RoutedEventArgs e)
         {
             FemalePreferenceBox customMessageBox = new FemalePreferenceBox(female);
             customMessageBox.ShowDialog();
