@@ -14,10 +14,10 @@ namespace MatchmakingPlatform.Utils
         {
             { "Under Matric", 1 },
             { "Matric", 2 },
-            { "Inter", 3 },
+            { "Intermediate", 3 },
             { "Diploma", 4 },
-            { "Bachelor", 5 },
-            { "Masters", 6 },
+            { "Bachelor's", 5 },
+            { "Master's", 6 },
             { "Doctorate", 7 }
         };
         public static int GetEducationScore(string education){

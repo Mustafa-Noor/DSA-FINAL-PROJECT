@@ -1,17 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using MatchmakingPlatform.BL;
+using MatchmakingPlatform.DL;
 
 namespace MatchmakingPlatform.Extras
 {
@@ -32,7 +22,7 @@ namespace MatchmakingPlatform.Extras
         {
             InitializeComponent();
             this.female = female;
-            ComboBox1.ItemsSource = new[] { "Age", "Height", "Education", "Monthly Income", "Profession" };
+            ComboBox1.ItemsSource = new[] {"Age", "Height", "Education", "Monthly Income", "Profession" };
         }
 
         private void ComboBox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -49,7 +39,7 @@ namespace MatchmakingPlatform.Extras
             }
             else if (ComboBox1.SelectedItem.ToString() == "Education")
             {
-                ComboBox2.ItemsSource = new[] { "Matric", "Inter", "Diploma", "Bachelor", "Master", "Doctorate" };
+                ComboBox2.ItemsSource = new[] {"Under Matric", "Matric", "Intermediate", "Diploma", "Bachelor's", "Master's", "Doctorate" };
                 PrefrenceText.IsEnabled = false;
             }
         }
@@ -58,7 +48,7 @@ namespace MatchmakingPlatform.Extras
         {
             prefrence = ComboBox1.SelectedItem?.ToString();
             condition = ComboBox2.SelectedItem?.ToString();
-            float value = float.NaN;
+            int value = -1;
             string prefText = PrefrenceText.Text;
             if (string.IsNullOrEmpty(prefrence) || string.IsNullOrEmpty(condition))
             {
@@ -74,7 +64,7 @@ namespace MatchmakingPlatform.Extras
 
             if (ComboBox1.SelectedItem.ToString() == "Age" || ComboBox1.SelectedItem.ToString() == "Height" || ComboBox1.SelectedItem.ToString()=="Monthly Income")
             {
-                value = float.Parse(prefText);
+                value = int.Parse(prefText);
             }
 
             if (female.DoesPreferenceExist(prefrence))
@@ -89,7 +79,7 @@ namespace MatchmakingPlatform.Extras
             Preference pref = new Preference(prefrence, value, condition);
             female.Preferences.Add(pref);
             female.Queue.Enqueue(pref);
-            
+            FemaleDL.SavetoFile();
             DialogResult = true;
             ShowSuccessMessage("Preference value Added.");
             Close();

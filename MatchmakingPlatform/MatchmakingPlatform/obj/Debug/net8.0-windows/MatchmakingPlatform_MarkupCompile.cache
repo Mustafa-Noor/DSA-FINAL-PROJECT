@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\App.xaml
-171716464022
+16-1434550662
 
-33-1643193276
+321758460475
 200122102566
-Extras\FemalePreferenceBox.xaml;Extras\MalePreferenceBox.xaml;Forms\DetailsPage.xaml;Forms\DetailsPageWomen.xaml;Forms\FemaleProfile.xaml;Forms\FemaleSignUp.xaml;Forms\MaleProfile.xaml;Forms\MaleSignup.xaml;Forms\Matches.xaml;Forms\PreferenceWindowFemale.xaml;Forms\PrefrenceWindow.xaml;Forms\Register.xaml;Forms\SignIn.xaml;Forms\WindowPreferenceFemale.xaml;MainWindow.xaml;UserControls\DatabaseItem.xaml;UserControls\Starter.xaml;
+Extras\FemalePreferenceBox.xaml;Extras\MalePreferenceBox.xaml;Forms\DetailsPage.xaml;Forms\DetailsPageWomen.xaml;Forms\FemalePrefrenceForm.xaml;Forms\FemaleProfile.xaml;Forms\FemaleSignUp.xaml;Forms\MaleProfile.xaml;Forms\MaleSignup.xaml;Forms\Matches.xaml;Forms\PrefrenceWindow.xaml;Forms\Register.xaml;Forms\SignIn.xaml;MainWindow.xaml;UserControls\DatabaseItem.xaml;UserControls\Starter.xaml;
 
 False
 

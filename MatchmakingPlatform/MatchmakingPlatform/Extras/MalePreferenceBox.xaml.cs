@@ -10,12 +10,12 @@ namespace MatchmakingPlatform.Extras{
         public int value {get; private set;}
         public string condition {get;private set;}
 
-        Female female;
+        Male male;
 
-        public MalePreferenceBox(Female female)
+        public MalePreferenceBox(Male male)
         {
             InitializeComponent();
-            this.female = female;
+            this.male = male;
             // Populate ComboBoxes (example data)
 
             ComboBox1.ItemsSource = new[] { "Age", "Height","Education","Profession","Monthly Income"};
@@ -25,7 +25,7 @@ namespace MatchmakingPlatform.Extras{
         {
             prefrence = ComboBox1.SelectedItem?.ToString();
             condition = ComboBox2.SelectedItem?.ToString();
-            float value = float.NaN;
+            int value = -1;
             string prefText = PrefrenceText.Text;
             if (string.IsNullOrEmpty(prefrence) || string.IsNullOrEmpty(condition))
             {
@@ -42,15 +42,15 @@ namespace MatchmakingPlatform.Extras{
                 value = int.Parse(prefText);
             }
 
-            if (female.DoesPreferenceExist(prefrence))
+            if (male.DoesPreferenceExist(prefrence))
             {
                 MessageBox.Show("This preference already is selected", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
-   
+            
             Preference pref = new Preference(prefrence,value,condition);
-            female.Preferences.Add(pref);
-            female.Queue.Enqueue(pref);
+            male.Preferences.Add(pref);
+            male.Queue.Enqueue(pref);
             FemaleDL.SavetoFile();
             //int size = male.Queue.Size();
             //MessageBox.Show($"The size of the queue is: {size}", "Queue Size", MessageBoxButton.OK, MessageBoxImage.Information);
@@ -63,28 +63,25 @@ namespace MatchmakingPlatform.Extras{
         {
             string selectedPreference = ComboBox1.SelectedItem.ToString();
             string preferenceText = PrefrenceText.Text;
+            
             //if (string.IsNullOrEmpty(preferenceText))
             //{
             //    MessageBox.Show("Preference value cannot be empty. For current preference", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
             //    return false;
             //}
-
             bool isValid = true;
             if (selectedPreference == "Age")
             {
-                //isValid = Validations.ValidateAge(preferenceText);
                 isValid = Validations.ValidateWithCondition(preferenceText, 18, 100);
             }
             else if (selectedPreference == "Height")
             {
-                //isValid = Validations.ValidateHeight(preferenceText);
                 isValid = Validations.ValidateWithCondition(preferenceText, 100, 200);
             }
             else if (selectedPreference == "Monthly Income")
             {
                 isValid = Validations.ValidateWithCondition(preferenceText,0, int.MaxValue);
             }
-
 
             if (!isValid)
             {
@@ -93,8 +90,6 @@ namespace MatchmakingPlatform.Extras{
             }
             else
             {
-                // Proceed with further processing
-                
                 return true;
             }
         }

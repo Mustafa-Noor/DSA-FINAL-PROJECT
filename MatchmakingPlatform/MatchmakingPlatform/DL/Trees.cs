@@ -1,10 +1,5 @@
 ﻿using MatchmakingPlatform.BL;
 using MatchmakingPlatform.Utils;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MatchmakingPlatform.DL
 {
@@ -39,9 +34,7 @@ namespace MatchmakingPlatform.DL
             {
                 RecursivelyAddInEducationTree(root, data);
             }
-
         }
-
         private void RecursivelyAddInEducationTree(MaleNode node, Male data)
         {
             if (Utility.GetEducationScore(data.Education) < Utility.GetEducationScore(node.Data.Education))
@@ -72,17 +65,17 @@ namespace MatchmakingPlatform.DL
         void FilterLessDataRecursive(MaleNode node,string education, HashSet<Male> result)
         {
             if (node == null) return;
-            if (Utility.GetEducationScore(node.Data.Education) < Utility.GetEducationScore(education))
+            if (Utility.GetEducationScore(node.Data.Education)+1 > Utility.GetEducationScore(education))
             {
                 result.Add(node.Data);
 
-                FilterLessDataRecursive(node.Left, education, result);
-
                 FilterLessDataRecursive(node.Right, education, result);
+
+                FilterLessDataRecursive(node.Left, education, result);
             }
             else
             {
-                FilterLessDataRecursive(node.Left, education, result);
+                FilterLessDataRecursive(node.Right, education, result);
             }
         }
 
@@ -131,7 +124,7 @@ namespace MatchmakingPlatform.DL
         {
 
             HashSet<Male> result = new HashSet<Male>();
-            if (Condition == "Less than")
+            if (Condition == "Less Than")
             {
                 FilterLessDataRecursive(root, salary, result);
             }
@@ -224,7 +217,7 @@ namespace MatchmakingPlatform.DL
         {
 
             HashSet<Male> result = new HashSet<Male>();
-            if (Condition == "Less than")
+            if (Condition == "Less Than")
             {
                 FilterLessDataRecursive(root, height, result);
             }
@@ -315,7 +308,7 @@ namespace MatchmakingPlatform.DL
         {
 
             HashSet<Male> result = new HashSet<Male>();
-            if (Condition == "Less than")
+            if (Condition == "Less Than")
             {
                 FilterLessDataRecursive(root, age, result);
             }

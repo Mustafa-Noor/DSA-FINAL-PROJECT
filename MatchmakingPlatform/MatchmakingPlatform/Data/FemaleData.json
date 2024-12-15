@@ -14,19 +14,8 @@
     "status": null,
     "education": null,
     "Image": "Data\\Female Images\\FemaleDefaultImage.jpg",
-    "Preferences": [
-      {
-        "Pref": "Height",
-        "Value": 120,
-        "Condition": "Less than"
-      }
-    ],
-    "Queue": [
-      {
-        "Pref": "Height",
-        "Value": 120,
-        "Condition": "Less than"
-      }
-    ]
+    "Preferences": [],
+    "MatchedPairs": [],
+    "Queue": []
   }
 }

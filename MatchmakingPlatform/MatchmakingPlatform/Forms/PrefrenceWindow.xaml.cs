@@ -9,12 +9,12 @@ namespace MatchmakingPlatform.Forms
     {
         // ObservableCollection to store preferences
 
-        Female female;
-        public PrefrenceWindow(Female male)
+        Male male;
+        public PrefrenceWindow(Male male)
         {
             InitializeComponent();
-            this.female = male;
-            this.DataContext = this.female;
+            this.male = male;
+            this.DataContext = this.male;
         }
 
         // Clear Preferences Button Click
@@ -32,13 +32,13 @@ namespace MatchmakingPlatform.Forms
 
         private void AddPreferenceButton_Click_1(object sender, RoutedEventArgs e)
         {
-            MalePreferenceBox customMessageBox = new MalePreferenceBox(female);
+            MalePreferenceBox customMessageBox = new MalePreferenceBox(male);
             customMessageBox.ShowDialog();
         }
 
         private void ClearPreferencesButton_Click_1(object sender, RoutedEventArgs e)
         {
-            female.clearPreferences();
+            male.clearPreferences();
         }
     }
 

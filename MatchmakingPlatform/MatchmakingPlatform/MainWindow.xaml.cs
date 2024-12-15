@@ -24,7 +24,9 @@ namespace MatchmakingPlatform.BL
             SignIn signInWindow = new SignIn();
             signInWindow.Show();
             this.Close();
-
+            //DetailsPageWomen w =new DetailsPageWomen(FemaleDL.FindUser("theeti"));
+            //w.Show();
+            //this.Close();
         }
     }
-} 
+}

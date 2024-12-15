@@ -13,6 +13,7 @@ namespace MatchmakingPlatform.DL
         public static SalaryTree salaryTree = new SalaryTree();
         public static HeightTree heightTree = new HeightTree();
         public static AgeTree AgeTree = new AgeTree();
+        public static EducationTree educationTree = new EducationTree();
         static Dictionary<string, Male> Males = new Dictionary<string, Male>();
 
         static string filePath = Utility.FilePath+ "\\Data\\MaleData.json";
@@ -25,8 +26,6 @@ namespace MatchmakingPlatform.DL
             MessageBox.Show(absolutePath);
             return absolutePath;
         }
-
-
 
         public static void SavetoFile()
         {
@@ -52,6 +51,7 @@ namespace MatchmakingPlatform.DL
                     AgeTree.InsertIntoAgeTree(male);
                     heightTree.InsertIntoHeightTree(male);
                     salaryTree.InsertIntoSalaryTree(male);
+                    educationTree.InsertIntoEducationTree(male);
                 }
             }
             else
@@ -73,6 +73,15 @@ namespace MatchmakingPlatform.DL
             heightTree.InsertIntoHeightTree(user);
             salaryTree.InsertIntoSalaryTree(user);
             return true;
+        }
+
+        public static HashSet<Male> FilterDataBasedOnProfession(string profession){
+            HashSet<Male> res = new HashSet<Male>();
+            foreach(Male male in Males.Values){
+                if(male.Profession == profession) res.Add(male);
+            }
+            return res;
+            
         }
 
         static public bool CheckUserExists(string username)

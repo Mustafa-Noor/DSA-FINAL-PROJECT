@@ -20,6 +20,9 @@ namespace MatchmakingPlatform.BL
         public string education { get; set; }
         public string Image { get; set; }
         public ObservableCollection<Preference> Preferences { get; set; }
+        
+        public List<Male> MatchedPairs {get; set;}
+
 
         //public PreferenceQueue Queue {get; set;}
         public Queue<Preference> Queue { get; set; }
@@ -33,12 +36,14 @@ namespace MatchmakingPlatform.BL
             this.Gender = gender;
             Preferences = new ObservableCollection<Preference>();
             Queue = new Queue<Preference>();
+            MatchedPairs = new List<Male>();
         }
 
         public Female()
         {
             Preferences = new ObservableCollection<Preference>();
             Queue = new Queue<Preference>();
+            MatchedPairs = new List<Male>();
         }
         public bool CheckPassword(string password){ return Password == password;}
 
