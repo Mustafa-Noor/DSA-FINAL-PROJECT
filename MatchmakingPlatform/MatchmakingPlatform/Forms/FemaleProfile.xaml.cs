@@ -142,6 +142,8 @@ namespace MatchmakingPlatform.Forms
             else
             {
                 //Conent for the next window
+                PreferenceWindowFemale prefWindow = new PreferenceWindowFemale(currentFemale);
+                prefWindow.Show();
                 this.Close();
             }
         }
