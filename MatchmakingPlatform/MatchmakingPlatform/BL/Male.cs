@@ -54,6 +54,7 @@ namespace MatchmakingPlatform.BL
             Preferences = new ObservableCollection<Preference>();
             Queue = new PreferenceQueue();
             Age = (DateAndTime.Now.Year-DateOfBirth.Year);
+            this.Education = "Matric";
         }
        public bool CheckPassword(string password)
        {

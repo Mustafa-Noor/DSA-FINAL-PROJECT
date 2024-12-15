@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "noor": {
     "Username": "noor",
     "Password": "123456",
@@ -18,12 +19,14 @@
     "Preferences": [],
     "Queue": {}
   },
+=======
+>>>>>>> 719d0dffd24a7309d20e14ce88451b394994ee01
   "theeti": {
     "Username": "theeti",
     "Password": "123456",
-    "Email": "theeta@123.com",
-    "PhoneNumber": "12341234098",
-    "DateOfBirth": "2006-07-13T00:00:00",
+    "Email": "theeti@gmail.com",
+    "PhoneNumber": "12312312345",
+    "DateOfBirth": "2000-03-02T00:00:00",
     "Gender": "Female",
     "firstName": null,
     "lastName": null,
@@ -32,8 +35,20 @@
     "height": 0,
     "status": null,
     "education": null,
-    "Image": null,
-    "Preferences": [],
-    "Queue": {}
+    "Image": "Data\\Female Images\\FemaleDefaultImage.jpg",
+    "Preferences": [
+      {
+        "Pref": "Height",
+        "Value": 120,
+        "Condition": "Less than"
+      }
+    ],
+    "Queue": [
+      {
+        "Pref": "Height",
+        "Value": 120,
+        "Condition": "Less than"
+      }
+    ]
   }
 }

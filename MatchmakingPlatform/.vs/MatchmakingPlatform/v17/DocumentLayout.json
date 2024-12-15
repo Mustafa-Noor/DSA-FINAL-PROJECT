@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\",
   "Documents": [
     {
@@ -111,10 +112,15 @@
       "RelativeMoniker": "D:0:0:{28E6C026-3EC4-4218-8FB9-C57F33310E4B}|MatchmakingPlatform\\MatchmakingPlatform.csproj|solutionrelative:matchmakingplatform\\usercontrols\\starter.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
+=======
+  "WorkspaceRootPath": "E:\\Studies\\3rd Samester\\DSAFinal\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\",
+  "Documents": [],
+>>>>>>> 719d0dffd24a7309d20e14ce88451b394994ee01
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+<<<<<<< HEAD
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -462,6 +468,9 @@
           ]
         }
       ]
+=======
+      "DocumentGroups": []
+>>>>>>> 719d0dffd24a7309d20e14ce88451b394994ee01
     }
   ]
 }
