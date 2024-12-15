@@ -56,9 +56,6 @@ namespace MatchmakingPlatform.BL
         {
             queue.Clear();
         }
-
-
-
     }
 }
 

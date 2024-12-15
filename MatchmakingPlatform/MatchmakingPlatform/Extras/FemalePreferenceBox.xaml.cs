@@ -32,24 +32,19 @@ namespace MatchmakingPlatform.Extras
         {
             InitializeComponent();
             this.female = female;
-            ComboBox1.ItemsSource = new[] { "Age", "Height", "Education", "Status", "Martial Status" };
+            ComboBox1.ItemsSource = new[] { "Age", "Height", "Education", "Monthly Income", "Profession" };
         }
 
         private void ComboBox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (ComboBox1.SelectedItem.ToString() == "Age" || ComboBox1.SelectedItem.ToString() == "Height")
+            if (ComboBox1.SelectedItem.ToString() == "Age" || ComboBox1.SelectedItem.ToString() == "Height" || ComboBox1.SelectedItem.ToString()=="Monthly Income")
             {
-                ComboBox2.ItemsSource = new[] { "Less Than", "Equal to", "Greater than" };
+                ComboBox2.ItemsSource = new[] { "Less Than", "Greater than" };
                 PrefrenceText.IsEnabled = true;
             }
-            else if (ComboBox1.SelectedItem.ToString() == "Status")
+            else if(ComboBox1.SelectedItem.ToString() == "Profession")
             {
-                ComboBox2.ItemsSource = new[] { "Job", "Housewife" };
-                PrefrenceText.IsEnabled = false;
-            }
-            else if(ComboBox1.SelectedItem.ToString() == "Martial Status")
-            {
-                ComboBox2.ItemsSource = new[] { "Divorced", "Single", "Deceased Wife"};
+                ComboBox2.ItemsSource = new[] {"Business","Private Employee","Government Employee","Free Lancer"};
                 PrefrenceText.IsEnabled = false;
             }
             else if (ComboBox1.SelectedItem.ToString() == "Education")
@@ -77,7 +72,7 @@ namespace MatchmakingPlatform.Extras
             }
 
 
-            if (ComboBox1.SelectedItem.ToString() == "Age" || ComboBox1.SelectedItem.ToString() == "Height")
+            if (ComboBox1.SelectedItem.ToString() == "Age" || ComboBox1.SelectedItem.ToString() == "Height" || ComboBox1.SelectedItem.ToString()=="Monthly Income")
             {
                 value = float.Parse(prefText);
             }
@@ -94,8 +89,7 @@ namespace MatchmakingPlatform.Extras
             Preference pref = new Preference(prefrence, value, condition);
             female.Preferences.Add(pref);
             female.Queue.Enqueue(pref);
-            //int size = male.Queue.Size();
-            //MessageBox.Show($"The size of the queue is: {size}", "Queue Size", MessageBoxButton.OK, MessageBoxImage.Information);
+            
             DialogResult = true;
             ShowSuccessMessage("Preference value Added.");
             Close();
@@ -122,12 +116,14 @@ namespace MatchmakingPlatform.Extras
             if (selectedPreference == "Age")
             {
                 //isValid = Validations.ValidateAge(preferenceText);
-                isValid = Validations.ValidateWithCondition(preferenceText, condition, 18, 100);
+                isValid = Validations.ValidateWithCondition(preferenceText ,18, 100);
             }
             else if (selectedPreference == "Height")
             {
                 //isValid = Validations.ValidateHeight(preferenceText);
-                isValid = Validations.ValidateWithCondition(preferenceText, condition, 100, 200);
+                isValid = Validations.ValidateWithCondition(preferenceText, 100, 200);
+            }else if(selectedPreference == "Mothly Income") {
+                isValid = Validations.ValidateWithCondition(preferenceText, 0, int.MaxValue);
             }
 
             if (!isValid)

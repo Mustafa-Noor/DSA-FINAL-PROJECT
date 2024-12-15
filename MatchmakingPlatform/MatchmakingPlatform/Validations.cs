@@ -114,14 +114,14 @@ namespace MatchmakingPlatform
         }
 
 
-        public static bool ValidateWithCondition(string valueText, string condition, int minValue, int maxValue)
+        public static bool ValidateWithCondition(string valueText, int minValue, int maxValue)
         {
             if (!int.TryParse(valueText, out int value))
             {
                 return false; // Invalid integer input
             }
 
-            switch (condition)
+            /*switch (condition)
             {
                 case "Less Than":
                     return value > minValue && value < maxValue;
@@ -134,7 +134,9 @@ namespace MatchmakingPlatform
 
                 default:
                     return false; // Invalid condition
-            }
+            }*/
+            
+            return value > minValue && value < maxValue;
         }
 
 

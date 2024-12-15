@@ -32,7 +32,7 @@ namespace MatchmakingPlatform.Forms
 
         void AddPreferences_Click(object sender, RoutedEventArgs e)
         {
-            FemalePreferenceBox customMessageBox = new FemalePreferenceBox(female);
+            MalePreferenceBox customMessageBox = new MalePreferenceBox(female);
             customMessageBox.ShowDialog();
         }
 

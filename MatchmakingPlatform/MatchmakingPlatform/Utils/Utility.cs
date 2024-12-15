@@ -9,6 +9,19 @@ namespace MatchmakingPlatform.Utils
 {
     internal class Utility
     {
-        public static string FilePath = "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform";
+        public static string FilePath = "E:\\Studies\\3rd Samester\\DSAFinal\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform";
+        static Dictionary<string, int> educationLevels = new Dictionary<string, int>
+        {
+            { "Under Matric", 1 },
+            { "Matric", 2 },
+            { "Inter", 3 },
+            { "Diploma", 4 },
+            { "Bachelor", 5 },
+            { "Masters", 6 },
+            { "Doctorate", 7 }
+        };
+        public static int GetEducationScore(string education){
+            return educationLevels[education];
+        }
     }
 }

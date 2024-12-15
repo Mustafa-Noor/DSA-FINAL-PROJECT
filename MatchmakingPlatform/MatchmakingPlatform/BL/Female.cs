@@ -21,7 +21,8 @@ namespace MatchmakingPlatform.BL
         public string Image { get; set; }
         public ObservableCollection<Preference> Preferences { get; set; }
 
-        public PreferenceQueue Queue { get; set; }
+        //public PreferenceQueue Queue {get; set;}
+        public Queue<Preference> Queue { get; set; }
 
         public Female(string username, string password, string email, string phoneNumber, DateTime dateOfBirth, string gender){ 
             this.Username = username;
@@ -31,13 +32,13 @@ namespace MatchmakingPlatform.BL
             this.DateOfBirth = dateOfBirth;
             this.Gender = gender;
             Preferences = new ObservableCollection<Preference>();
-            Queue = new PreferenceQueue();
+            Queue = new Queue<Preference>();
         }
 
         public Female()
         {
             Preferences = new ObservableCollection<Preference>();
-            Queue = new PreferenceQueue();
+            Queue = new Queue<Preference>();
         }
         public bool CheckPassword(string password){ return Password == password;}
 
