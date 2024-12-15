@@ -1,5 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 using System.Windows.Media.Imaging;
+using Microsoft.VisualBasic;
 
 namespace MatchmakingPlatform.BL
 {
@@ -19,10 +20,23 @@ namespace MatchmakingPlatform.BL
         public string status { get; set; }
         public string education { get; set; }
         public string Image { get; set; }
+        public int Age { get; set; }
         public ObservableCollection<Preference> Preferences { get; set; }
 
+<<<<<<< HEAD
+        public string FullImagePath
+        {
+            get
+            {
+                return Utils.Utility.FilePath + Image; // Concatenate FilePath with Image path
+            }
+        }
+
+        public PreferenceQueue Queue { get; set; }
+=======
         //public PreferenceQueue Queue {get; set;}
         public Queue<Preference> Queue { get; set; }
+>>>>>>> 719d0dffd24a7309d20e14ce88451b394994ee01
 
         public Female(string username, string password, string email, string phoneNumber, DateTime dateOfBirth, string gender){ 
             this.Username = username;
@@ -32,7 +46,12 @@ namespace MatchmakingPlatform.BL
             this.DateOfBirth = dateOfBirth;
             this.Gender = gender;
             Preferences = new ObservableCollection<Preference>();
+<<<<<<< HEAD
+            Queue = new PreferenceQueue();
+            Age = (DateAndTime.Now.Year - DateOfBirth.Year);
+=======
             Queue = new Queue<Preference>();
+>>>>>>> 719d0dffd24a7309d20e14ce88451b394994ee01
         }
 
         public Female()

@@ -1,0 +1,168 @@
+﻿<Window x:Class="MatchmakingPlatform.Forms.DetailsPageWomen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Details Page"
+        Background="#F8E8F8" 
+    Height="800"
+        Width="700">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid Margin="30">
+            <!-- Define Rows for Layout -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <!-- Header Section -->
+                <RowDefinition Height="*"/>
+                <!-- Details Section -->
+            </Grid.RowDefinitions>
+
+            <Button Width="80" Height="50" Click="BackButton_Click" HorizontalAlignment="Left" Background="#FFB6C1" Foreground="White" BorderBrush="#FFB6C1" FontWeight="Bold">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="1" CornerRadius="8">
+                            <Grid>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <!-- Define the normal appearance -->
+                        <Setter Property="Background" Value="#FFB6C1"/>
+                        <Setter Property="BorderBrush" Value="#FFB6C1"/>
+                        <Setter Property="Foreground" Value="White"/>
+
+                        <!-- Define hover effect with VisualStateManager -->
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsMouseOver, RelativeSource={RelativeSource Self}}" Value="True">
+                                <Setter Property="Background" Value="#D88A96"/>
+                                <!-- Darker shade on hover -->
+                                <Setter Property="BorderBrush" Value="#D88A96"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <TextBlock Text="Back"/>
+            </Button>
+
+
+            <!-- Header Section -->
+                <StackPanel Grid.Row="0" HorizontalAlignment="Center" Margin="0,0,0,30">
+                    <TextBlock Text="Female Details" 
+                           FontSize="28" 
+                           FontWeight="Bold" 
+                           Foreground="#D36B8B"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Left"
+                           Margin="0,0,0,10"/>
+            </StackPanel>
+
+                <!-- Details Section -->
+                <Grid Margin="-12,77,0,0" Grid.RowSpan="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" MinWidth="226"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Image Section (Left Side) -->
+                <Border HorizontalAlignment="Center" Margin="0,10,0,487" BorderBrush="#E0A9B4" BorderThickness="1" Padding="5" Background="#FFF" Width="112" CornerRadius="8">
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <!-- Profile Image -->
+                        <Ellipse Width="100" Height="100" Stroke="#E0A9B4" StrokeThickness="2">
+                            <Ellipse.Fill>
+                                <ImageBrush ImageSource="{Binding FullImagePath}" Stretch="UniformToFill"/>
+                            </Ellipse.Fill>
+                        </Ellipse>
+                        <TextBlock Text="Profile Picture" FontSize="12" Foreground="#E0A9B4" HorizontalAlignment="Center" Margin="0,10"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Right Section (Details) -->
+                    <Grid Grid.Column="1" Margin="74,0,0,0">
+                    <Border Background="#FFF" BorderBrush="#E0A9B4" BorderThickness="1" Padding="15" Margin="-101,0,0,190" CornerRadius="8">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <!-- Labels and Data -->
+                                <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,12">
+                                    <TextBlock Text="First Name:" FontWeight="Bold" FontSize="14" Foreground="#D36B8B" />
+                                    <TextBlock Text="{Binding firstName}" FontSize="14" Foreground="#555" Margin="10,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,12">
+                                    <TextBlock Text="Last Name:" FontWeight="Bold" FontSize="14" Foreground="#D36B8B"/>
+                                    <TextBlock Text="{Binding lastName}" FontSize="14" Foreground="#555" Margin="10,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,12">
+                                    <TextBlock Text="Email:" FontWeight="Bold" FontSize="14" Foreground="#D36B8B"/>
+                                    <TextBlock Text="{Binding Email}" FontSize="14" Foreground="#555" Margin="10,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,12">
+                                    <TextBlock Text="Contact Number:" FontWeight="Bold" FontSize="14" Foreground="#D36B8B"/>
+                                    <TextBlock Text="{Binding PhoneNumber}" FontSize="14" Foreground="#555" Margin="10,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,12">
+                                    <TextBlock Text="Address:" FontWeight="Bold" FontSize="14" Foreground="#D36B8B"/>
+                                    <TextBlock Text="{Binding address}" FontSize="14" Foreground="#555" Margin="10,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="5" Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,12">
+                                    <TextBlock Text="City:" FontWeight="Bold" FontSize="14" Foreground="#D36B8B"/>
+                                    <TextBlock Text="{Binding city}" FontSize="14" Foreground="#555" Margin="10,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="6" Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,12">
+                                    <TextBlock Text="Height (cm):" FontWeight="Bold" FontSize="14" Foreground="#D36B8B"/>
+                                    <TextBlock Text="{Binding height}" FontSize="14" Foreground="#555" Margin="10,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="7" Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,12">
+                                    <TextBlock Text="Status:" FontWeight="Bold" FontSize="14" Foreground="#D36B8B"/>
+                                    <TextBlock Text="{Binding status}" FontSize="14" Foreground="#555" Margin="10,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="8" Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,12">
+                                    <TextBlock Text="Education:" FontWeight="Bold" FontSize="14" Foreground="#D36B8B"/>
+                                    <TextBlock Text="{Binding education}" FontSize="14" Foreground="#555" Margin="10,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="9" Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,12">
+                                    <TextBlock Text="Date of Birth:" FontWeight="Bold" FontSize="14" Foreground="#D36B8B"/>
+                                    <TextBlock Text="{Binding DateOfBirth, StringFormat=yyyy-MM-dd}" FontSize="14" Foreground="#555" Margin="10,0,0,0"/>
+                                </StackPanel>
+
+                                <!-- Age Section -->
+                                <StackPanel Grid.Row="10" Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,12">
+                                    <TextBlock Text="Age:" FontWeight="Bold" FontSize="14" Foreground="#D36B8B"/>
+                                    <TextBlock Text="{Binding Age}" FontSize="14" Foreground="#555" Margin="10,0,0,0"/>
+                                </StackPanel>
+
+                            </Grid>
+                        </Border>
+                    </Grid>
+                </Grid>
+        </Grid>
+    </ScrollViewer>
+</Window>

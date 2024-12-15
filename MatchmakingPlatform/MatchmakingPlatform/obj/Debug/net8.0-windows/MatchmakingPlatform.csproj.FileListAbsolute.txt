@@ -176,6 +176,12 @@ C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\Matchm
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\ref\MatchmakingPlatform.dll
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\Matches.g.cs
 C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\Matches.baml
+<<<<<<< HEAD
+C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\DetailsPage.baml
+C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\DetailsPage.g.cs
+C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\DetailsPageWomen.baml
+C:\Users\musno\OneDrive\Desktop\SEMESTER 3\DSA\Projects\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\DetailsPageWomen.g.cs
+=======
 E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\bin\Debug\net8.0-windows\Microsoft.Win32.SystemEvents.dll
 E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\bin\Debug\net8.0-windows\System.Drawing.Common.dll
 E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\bin\Debug\net8.0-windows\System.Private.Windows.Core.dll
@@ -200,3 +206,4 @@ E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\Matchmaki
 E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Forms\Matches.baml
 E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\UserControls\Starter.baml
 E:\Studies\3rd Samester\DSAFinal\DSA-FINAL-PROJECT\MatchmakingPlatform\MatchmakingPlatform\obj\Debug\net8.0-windows\Matchmak.B5237E39.Up2Date
+>>>>>>> 719d0dffd24a7309d20e14ce88451b394994ee01
