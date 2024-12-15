@@ -148,7 +148,5 @@ namespace MatchmakingPlatform.Extras
         {
             MessageBox.Show(message, "Validation Success", MessageBoxButton.OK, MessageBoxImage.Information);
         }
-
-
     }
 }

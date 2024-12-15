@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+kdRcOBwLDw=",
+  "dgSpecHash": "jZIy7l4rdYoRlEMj5/wDPca86ZJW6B+Dic8OogVkxdTrwZt8S067WaXWMXdJKkEe1t8GYBdeT5QITFcxPH6Tgw==",
   "success": true,
-  "projectFilePath": "E:\\Studies\\3rd Samester\\DSAFinal\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\MatchmakingPlatform.csproj",
+  "projectFilePath": "C:\\Users\\musno\\OneDrive\\Desktop\\SEMESTER 3\\DSA\\Projects\\DSA-FINAL-PROJECT\\MatchmakingPlatform\\MatchmakingPlatform\\MatchmakingPlatform.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\LAPTOPS HUB\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.0\\microsoft.win32.systemevents.9.0.0.nupkg.sha512",
-    "C:\\Users\\LAPTOPS HUB\\.nuget\\packages\\system.drawing.common\\9.0.0\\system.drawing.common.9.0.0.nupkg.sha512"
+    "C:\\Users\\musno\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.0\\microsoft.win32.systemevents.9.0.0.nupkg.sha512",
+    "C:\\Users\\musno\\.nuget\\packages\\system.drawing.common\\9.0.0\\system.drawing.common.9.0.0.nupkg.sha512"
   ],
   "logs": []
 }
