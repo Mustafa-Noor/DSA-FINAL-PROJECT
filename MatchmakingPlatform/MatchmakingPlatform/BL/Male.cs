@@ -27,14 +27,6 @@ namespace MatchmakingPlatform.BL
 
         public PreferenceQueue Queue { get; set; }
 
-        public string FullImagePath
-        {
-            get
-            {
-                return Utils.Utility.FilePath + Image; // Concatenate FilePath with Image path
-            }
-        }
-
 
 
         public Male()

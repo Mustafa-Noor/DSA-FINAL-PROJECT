@@ -13,12 +13,6 @@
     <Compile Update="Extras\MalePreferenceBox.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Forms\DetailsPage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Forms\DetailsPageWomen.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="Forms\FemaleProfile.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -46,12 +40,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Extras\MalePreferenceBox.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Forms\DetailsPage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Forms\DetailsPageWomen.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Forms\FemaleProfile.xaml">
