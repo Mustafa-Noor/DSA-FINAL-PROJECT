@@ -1,26 +1,4 @@
 {
-<<<<<<< HEAD
-  "noor": {
-    "Username": "noor",
-    "Password": "123456",
-    "Email": "mus.noor12@gmail.com",
-    "PhoneNumber": "03214050454",
-    "DateOfBirth": "1989-12-07T00:00:00",
-    "Gender": "Female",
-    "firstName": "Hanna",
-    "lastName": "Jacobs",
-    "address": "Garhi Shahu",
-    "city": "Lahore",
-    "height": 161,
-    "status": "Housewife",
-    "education": "Bachelor\u0027s",
-    "Image": "\\Data\\Female Images\\noor_ProfilePicture.jpg",
-    "Age": 35,
-    "Preferences": [],
-    "Queue": {}
-  },
-=======
->>>>>>> 719d0dffd24a7309d20e14ce88451b394994ee01
   "theeti": {
     "Username": "theeti",
     "Password": "123456",
